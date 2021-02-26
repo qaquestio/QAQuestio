@@ -40,7 +40,7 @@
             </br>
             3.) Um Deine Fragen zu ordnen, verwende “Rating” und “Favourite”</br>
             </br>
-            Im Menü “Edit” werden Fragen in folgender Reihenfolge angezeigt:</br>
+            Im Menü “Bearbeiten” werden Fragen in folgender Reihenfolge angezeigt:</br>
             a) Rating (Bewertung)</br>
             b) Erstell- / Änderungsdatum</br>
             </br>
