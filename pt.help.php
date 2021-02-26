@@ -32,7 +32,7 @@
             QAQuestio é um "site de busca" pessoal que você mesmo vai criar. </br>
             </br>
             Para usa-lo </br>
-            1.) Digite uma pergunta nova ou modifique uma pergunta pré-formulada (veja "Edit")</br>
+            1.) Digite uma pergunta nova ou modifique uma pergunta pré-formulada (veja "Editar")</br>
             </br>
             2.) Coloque pelo menos duas palavras chaves (Keywords) de sua pergunta. (veja perguntas pré-formuladas)</br>
             </br>

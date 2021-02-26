@@ -87,7 +87,7 @@ if (isset($_POST['register'])) {
         $fav_key132_pt = "hoje";
 
         // 14_de
-        $fav14_de = "Um Fragen und Antworten zu erstellen, zu bearbeiten oder zu entfernen gehe auf &quot;Edit&quot;.";
+        $fav14_de = "Um Fragen und Antworten zu erstellen, zu bearbeiten oder zu entfernen gehe auf &quot;Bearbeiten&quot;.";
         $fav_key141_de = "Fragen";
         $fav_key142_de = "erstellen";
 
