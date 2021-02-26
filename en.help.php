@@ -32,7 +32,7 @@
             QAQuestio is a personal search engine that you create yourself.</br>
             </br>
             To use it </br>
-            1.) Enter a new question or use a pre-set question (see "Edit")</br>
+            1.) Enter a new question or adapt a pre-set question (see "Edit")</br>
             </br>
             2.) Enter at least two keywords from your question (see pre-set questions)</br>
             </br>
