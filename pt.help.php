@@ -51,6 +51,7 @@
             5.) Clique em “Update”</br>
             </br>
             Pronto. Agora suas perguntas e respostas estão prontas para usá-las quando quiser.</br>
+            </br>
             Para mais informações sobre o conceito e a utilidade disso veja “About”.</br>
 
             </td>

@@ -51,6 +51,7 @@
             5.) Drücke auf “Update”</br>
             </br>
             Fertig. Du kannst Diene Fragen und Antworten nun verwenden.</br>
+            </br>
             Wenn Du mehr über das Konzept und seinen Nutzen herausfinden möchtest, gehe auf “About”.</br>
             </td>
          </tr>

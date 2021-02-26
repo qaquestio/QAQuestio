@@ -51,6 +51,7 @@
             5.) Press “Update”</br>
             </br>
             Done. You can now use your questions and answers.</br>
+            </br>
             If you want to find out more about the concept and its benefits, go to "About".</br>
             </td>
          </tr>
