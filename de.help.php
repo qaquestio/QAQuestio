@@ -32,7 +32,7 @@
             QAQuestio ist eine persönliche Suchmaschine, die Du selbst erstellst.</br>
             </br>
             Um sie zu verwenden </br>
-            1.) Gib eine neue Frage ein oder passe bereits vorformulierten Fragen an (siehe "Edit")</br>
+            1.) Gib eine neue Frage ein oder passe eine bereits vorformulierte Frage an (siehe "Edit")</br>
             </br>
             2.) Gib mindestens zwei Schlüsselwörter (Keywords) aus deiner Frage ein (siehe vorformulierte Fragen)</br>
             </br>
