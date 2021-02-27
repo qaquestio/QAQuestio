@@ -320,17 +320,17 @@ if (isset($_POST['register'])) {
         $fav_key522_pt = "descrevê-lo";
 
         // 53_de
-        $fav53_de = "Sind die Dinge so wie Du denkst? Könnten Sie auch anders sein? Könntest Du sie auch anders sehen?";
+        $fav53_de = "Sind die Dinge so wie Du denkst? Könnten Sie auch anders sein? Könntest Du sie auch anders sehen? Worum geht es im Wesentlichen?";
         $fav_key531_de = "könnten";
         $fav_key532_de = "anders";
 
         // en
-        $fav53_en = "Are things the way you think they are? Could they be different? Could you also see them in a different way?";
+        $fav53_en = "Are things the way you think they are? Could they be different? Could you also see them in a different way? What is it essentially about?";
         $fav_key531_en = "could";
         $fav_key532_en = "different";
 
         // pt
-        $fav53_pt = "As coisas são do jeito que você pensa que são? Eles poderiam ser diferentes? Você poderia vê-los de uma maneira diferente?";      
+        $fav53_pt = "As coisas são do jeito que você pensa que são? Eles poderiam ser diferentes? Você poderia vê-los de uma maneira diferente? Do que se trata essencialmente?";      
         $fav_key531_pt = "ser";
         $fav_key532_pt = "diferentes";
 
