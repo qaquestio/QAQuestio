@@ -10,7 +10,7 @@
    </br>
          <h3 class="h3_footer">O QUE É QAQUESTIO?</h3></br>
          <p class="p_footer">
-            QAQuestio é uma página de busca pessoal que utiliza mecanismos de perguntas/respostas para desencadear efeitos de aprendizagem.
+            QAQuestio é uma página de busca pessoal que utiliza mecanismos de perguntas/respostas para desencadear efeitos de aprendizagem duradouros.
             QAQuestio ajuda de uma forma lúdica a tornar as tarefas e desafios diários mais simples e ajuda a descobrir a essência destes assuntos.
             Para mais informações veja o nosso <a href="pt.about.php" target="_blank" title="About" id="nodecoration">About</a> page.
             </br> </br>

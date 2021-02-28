@@ -34,26 +34,23 @@
                <span style="font-style: italic; text-align: left; padding-right: 70px;">Hermann Hesse, Siddhartha</span>
                </br></br></br>
                Es gibt vermutlich Millionen von Büchern, Zeitschriften, Kolumnen und Anleitungen, die sich damit
-               beschäftigen, wie wir am besten mit den Widersprüchen umgehen,
-               die sich ständig zwischen der Realität und unseren Wünschen und Idealen auftun.
+               beschäftigen, wie wir am besten mit den Widersprüchen umgehen, die sich ständig zwischen der Realität und unseren Wünschen und Idealen auftun.
                </br></br>
                Wir versuchen vielleicht, Abkürzungen zu diesen Idealen zu finden, und stellen dabei fest, dass es diese
-               nicht gibt.
-               Oder wie es der Philosoph Konersmann beschreibt: "Unsere Paradiesphantasie ist etwas anderes, als das,
-               was ein [...] Paradies hätte sein müssen".
+               nicht gibt. Oder wie es der Philosoph Konersmann beschreibt: "Unsere Paradiesphantasie ist etwas anderes, als das, was ein [...] Paradies hätte sein müssen".
                </br></br>
                Irgendwann möchten wir jedoch zu Einsichten gelangen, Zwischenziele bei unserer Suche nach Antworten
                erreichen und etwas Ruhe finden.
                </br></br>
                Und obwohl es vermutlich so viele Definitionen für diese großen Begriffen wie "Glück" und "Erfolg" gibt,
-               wie Menschen
+               wie Menschen 
                auf dieser Welt leben, so haben sie doch eines gemeinsam. Was sie auch immer für uns bedeuten, der Weg zu
                einer eigenen klareren Vorstellung über diese Begriffe beginnt damit, sich die richtigen Fragen zu stellen.
                </br></br></br>
                <h3>Was ist QAQuestio?</h3>
                </br>
                QAQuestio ist ein persönliches Such-Werkzeug, das aus selbst erstellten Frage-Antwort-Kombinationen
-               entsteht. Es ist ein Werkzeug zur Selbstorganisation, das mithilfe dieser Frage-Antwort-Mechanismen Lerneffekte in Gang setzt und dich
+               entsteht. Es ist ein Werkzeug zur Selbstorganisation, das mithilfe dieser Frage-Antwort-Mechanismen nachhaltige Lerneffekte in Gang setzt und dich
                dabei unterstützt, das Wesentliche an deinen Fragen zu erkennen.
                </br></br>
                QAQuestio hilft dir, deine Aufmerksamkeit und deinen Sinn für hilfreiche Gewohnheiten und Gedanken zu
