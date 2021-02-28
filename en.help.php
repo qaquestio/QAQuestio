@@ -34,7 +34,7 @@
             To use it </br>
             1.) Enter a new question or adapt a pre-set question (see "Edit")</br>
             </br>
-            2.) Enter at least two keywords from your question (see pre-set questions)</br>
+            2.) Enter at least two keywords, or even parts of these words (e.g. "light-heartedness" --> "light") from your question.</br>
             </br>
             As soon as you enter this question in the search field later, your personal answer will be displayed.</br>
             </br>

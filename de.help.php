@@ -34,7 +34,7 @@
             Um sie zu verwenden </br>
             1.) Gib eine neue Frage ein oder passe eine bereits vorformulierte Frage an (siehe "Bearbeiten")</br>
             </br>
-            2.) Gib mindestens zwei Schlüsselwörter (Keywords) aus deiner Frage ein (siehe vorformulierte Fragen)</br>
+            2.) Gib mindestens zwei Schlüsselwörter (Keywords), oder auch nur Teile dieser Wörter (z.B. "Leichtigkeit" --> "leichti"), aus deiner Frage ein.</br>
             </br>
             Sobald Du diese Frage später in das Suchfeld eingibst, wird Deine persönliche Antwort angezeigt.</br>
             </br>

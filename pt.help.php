@@ -34,7 +34,7 @@
             Para usa-lo </br>
             1.) Digite uma pergunta nova ou modifique uma pergunta pré-formulada (veja "Editar")</br>
             </br>
-            2.) Coloque pelo menos duas palavras chaves (Keywords) de sua pergunta. (veja perguntas pré-formuladas)</br>
+            2.) Coloque pelo menos duas palavras chaves (Keywords), ou mesmo partes destas palavras (p.ex. "leveza" --> "lev"), de sua pergunta.</br>
             </br>
             E assim que você inserir esta pergunta no campo de busca, a sua resposta pessoal será exibida.</br>
             </br>
