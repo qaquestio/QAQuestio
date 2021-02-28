@@ -68,7 +68,7 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
                <br/>
                <input class="edit_input" type="text" name="keyw2" placeholder="Keyword 2 eingeben" required /><br/>
                <br/>
-               <input class="edit_input" type="text" name="keyw3" placeholder="Keyword 3 eigeben oder leer lassen" /><br/>
+               <input class="edit_input" type="text" name="keyw3" placeholder="Keyword 3 eingeben oder leer lassen" /><br/>
                <br/>
                <label style="font-weight: bold;">Rating (1-100)</label><br/>
                <input class="edit_input" type="text" name="rating" value="50" placeholder="Gib Deine Bewertung ein" required /><br/>
