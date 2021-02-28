@@ -48,14 +48,13 @@
                Und obwohl es vermutlich so viele Definitionen für diese großen Begriffen wie "Glück" und "Erfolg" gibt,
                wie Menschen
                auf dieser Welt leben, so haben sie doch eines gemeinsam. Was sie auch immer für uns bedeuten, der Weg zu
-               einer eigenen klareren Vorstellung über diese Begriffe
-               beginnt damit, sich die richtigen Fragen zu stellen.
+               einer eigenen klareren Vorstellung über diese Begriffe beginnt damit, sich die richtigen Fragen zu stellen.
                </br></br></br>
                <h3>Was ist QAQuestio?</h3>
                </br>
                QAQuestio ist ein persönliches Such-Werkzeug, das aus selbst erstellten Frage-Antwort-Kombinationen
-               entsteht. Es ist ein Werkzeug zur Selbstorganisation,
-               das mithilfe dieser Frage-Antwort-Mechanismen Lerneffekte in Gang setzt.
+               entsteht. Es ist ein Werkzeug zur Selbstorganisation, das mithilfe dieser Frage-Antwort-Mechanismen Lerneffekte in Gang setzt und dich
+               dabei unterstützt, das Wesentliche an deinen Fragen zu erkennen.
                </br></br>
                QAQuestio hilft dir, deine Aufmerksamkeit und deinen Sinn für hilfreiche Gewohnheiten und Gedanken zu
                schärfen und einen Weg durch täglichen Routinen und Herausforderungen zu finden.

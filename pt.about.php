@@ -47,7 +47,7 @@
             <h3>O que é QAQuestio?</h3>
             </br>
             QAQuestio é uma ferramenta de busca pessoal que é criada a partir de suas combinações de perguntas e respostas. 
-            É uma ferramenta de auto-organização que utiliza mecanismos de perguntas-respostas para desencadear efeitos de aprendizagem.
+            É uma ferramenta de auto-organização que utiliza mecanismos de perguntas-respostas para desencadear efeitos de aprendizagem e que ajudá você a chegar ao cerne de suas questões.
             </br></br>
             QAQuestio ajuda você a aguçar sua consciência e senso de hábitos e pensamentos úteis, e encontrar um caminho através das rotinas e desafios diários. 
             Ao fazer isso, QAQuestio transforma algo que as vezes até queremos evitar em algo lúdico.

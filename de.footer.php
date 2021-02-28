@@ -10,7 +10,7 @@
          <h3 class="h3_footer">WAS IST QAQUESTIO?</h3></br>
          <p class="p_footer">
             QAQuestio ist eine persönliche Suchseite, die mithilfe von Frage/Antwort-Mechanismen Lerneffekte in Gang setzt. QAQuestio hilft dabei auf auf 
-            spielerische Art und Weise, Aufgaben und Herausforderungen des Alltags einfacher zu machen. 
+            spielerische Art und Weise, Aufgaben und Herausforderungen des Alltags einfacher zu machen und das Wesentliche an diesen Dingen zu erkennen. 
             Weitere Informationen dazu gibt es auf unserer <a href="de.about.php" target="_blank" title="About" id="nodecoration">About</a> Seite.
             </br> </br>
             Nutzungsbedingungen: Die QAQuestio-App und das Codepaket sind unter der Open Source-Lizenz GNU General Public License v3 lizenziert. 
