@@ -46,7 +46,7 @@
             <h3>What is QAQuestio?</h3>
             </br>
             QAQuestio is a personal search tool that comes to life from self-created question-answer combinations. 
-            It is a self-organization tool that uses Q&A mechanisms to trigger lasting learning effects and that guides you to discover the essence of your questions.
+            It is a self-organization tool that uses Q&A mechanisms to trigger lasting learning effects and reinforcing loops and that guides you to discover the essence of your questions.
             </br></br>
             QAQuestio helps you to sharpen your awareness and sense for helpful habits and mindsets, and to find a way through daily routines and challenges. 
             It turns something we sometimes even try to avoid into something playful.
@@ -56,7 +56,7 @@
             QAQuestio is your red thread in this maze of advices and ideals.  
             QAQuestio helps you figure out which ones are significant and make sense to you and which ones don't. 
             </br></br>
-            This creates spaces in which you can now go on your quest for your own idea and definition of "happiness" and "success".
+            This creates free spaces and spaces for retreat in which you can now go on your quest for your own idea and definition of "happiness" and "success".
             </br></br>
             QAQuestio gives you a basic structure to find words for your feelings and desires and thus to understand them better.
             The tool empowers you to develop your own tools and helpful habits step by step.  

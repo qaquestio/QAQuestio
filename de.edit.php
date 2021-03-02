@@ -91,7 +91,7 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
                      value="<?php echo $row['rating']; ?>" /></p>
                </br>
                <label style="font-weight: bold;">Favourite (1=Ja, 0=Nein)</label><br />
-               <p><input class="edit_input" type="number" name="fav" placeholder="Favourite (Ja=1, Nein=0)g" required
+               <p><input class="edit_input" type="number" name="fav" placeholder="Favorit (Ja=1, Nein=0)" required
                      value="<?php echo $row['fav']; ?>" /></p>
                </br></br>
                <label style="font-weight: bold;">Deine Antwort</label><br />
