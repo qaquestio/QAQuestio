@@ -40,7 +40,7 @@
                   <span style="color:red;"><?php echo $email_error; ?></span>
                   </br></br>
                   <?php endif ?>
-                  <input class="login_input" type="password" name="password" placeholder="Password" required/>
+                  <input class="login_input" type="password" name="password" placeholder="Password (10-20 characters. [a-z], [A-Z], [0-9] and [%,$,&,...])" required/>
 				      </br></br>
                   <?php if (isset($pwd_error)): ?>
                   <span style="color:red;"><?php echo $pwd_error; ?></span>
