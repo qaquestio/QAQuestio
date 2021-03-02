@@ -72,17 +72,17 @@ if (isset($_POST['register'])) {
         $fav_key122_pt = "folha";
 
         // 13_de
-        $fav13_de = "Was möchtest Du heute tun? Gibt es etwas, worauf Du Dich freust?";
+        $fav13_de = "Was möchte ich heute tun? Gibt es etwas, worauf ich mich freue?";
         $fav_key131_de = "heute";
         $fav_key132_de = "tun";
 
         // en
-        $fav13_en = "What do you want to do today? Is there something you are looking forward to?";
+        $fav13_en = "What do I want to do today? Is there something I am looking forward to?";
         $fav_key131_en = "do";
         $fav_key132_en = "today";
 
         // pt
-        $fav13_pt = "O que você quer fazer hoje? Há algo pelo qual você está ansioso em fazer hoje?";
+        $fav13_pt = "O que eu quero fazer hoje? Há algo pelo qual eu estou ansioso em fazer hoje?";
         $fav_key131_pt = "fazer";
         $fav_key132_pt = "hoje";
 
@@ -104,139 +104,139 @@ if (isset($_POST['register'])) {
         // WISHES / STEPS / HELP / OBSTACLES
 
         // 21_de
-        $fav21_de = "Was wünscht Du Dir? Was hoffst Du? Worauf möchtest Du hinarbeiten?";
-        $fav_key211_de = "wünscht";
-        $fav_key212_de = "dir";
+        $fav21_de = "Was wünsche ich mir? Was hoffe ich? Worauf möchte ich hinarbeiten?";
+        $fav_key211_de = "wünsche";
+        $fav_key212_de = "mir";
 
         // en
-        $fav21_en = "What do you wish for? What do you hope? What do you want to work towards?";
+        $fav21_en = "What do I wish for? What do I hope? What do I want to work towards?";
         $fav_key211_en = "wish";
         $fav_key212_en = "for";
 
         // pt
-        $fav21_pt = "O que você deseja? O que você espera? Para o que você quer trabalhar?";
+        $fav21_pt = "O que eu desejo? O que eu espero? Para o que eu quero trabalhar?";
         $fav_key211_pt = "o que";
-        $fav_key212_pt = "deseja";
+        $fav_key212_pt = "desejo";
 
         // 22_de
-        $fav22_de = "Was genau musst Du dafür tun?";
+        $fav22_de = "Was genau muss ich dafür tun?";
         $fav_key221_de = "dafür";
         $fav_key222_de = "tun";
 
         // en
-        $fav22_en = "What exactly do you have to do for it? ";
+        $fav22_en = "What exactly do I have to do for it? ";
         $fav_key221_en = "do";
         $fav_key222_en = "for it";
         
         // pt
-        $fav22_pt = "O que exatamente você precisa fazer para isso?";
+        $fav22_pt = "O que exatamente eu preciso fazer para isso?";
         $fav_key221_pt = "fazer";
         $fav_key222_pt = "para isso";
 
         // 23_de
-        $fav23_de = "Wer oder was könnte Dir dabei helfen?";
+        $fav23_de = "Wer oder was könnte mir dabei helfen?";
         $fav_key231_de = "dabei";
         $fav_key232_de = "helfen";
 
         // en
-        $fav23_en = "Who or what could help you?";
+        $fav23_en = "Who or what could help me?";
         $fav_key231_en = "help";
-        $fav_key232_en = "you";
+        $fav_key232_en = "me";
 
         // pt
-        $fav23_pt = "Quem ou o que pode te ajudar?";
+        $fav23_pt = "Quem ou o que pode me ajudar?";
         $fav_key231_pt = "pode";
         $fav_key232_pt = "ajudar";
 
         // 24_de
-        $fav24_de = "Was könnte für Dich dabei herausfordernd sein oder Dich abhalten? Warum?";
+        $fav24_de = "Was könnte für mich dabei herausfordernd sein oder mich abhalten? Warum?";
         $fav_key241_de = "könnte";
         $fav_key242_de = "herausfordernd";
 
         // en
-        $fav24_en = "What could be challenging for you or stopping you? Why?";
+        $fav24_en = "What could be challenging for me or stopping me? Why?";
         $fav_key241_en = "could";
         $fav_key242_en = "challenging";
 
         // pt
-        $fav24_pt = "O que pode ser um desafio para você ou te impedir? Porque?";
+        $fav24_pt = "O que pode ser um desafio para mim ou me impedir? Porque?";
         $fav_key241_pt = "pode";
         $fav_key242_pt = "desafio";
 
         // HABITS MINDSETS
 
         // 31_de
-        $fav31_de = "Welche Haltung, welche Glaubenssätze, welche Gewohnheiten helfen Dir? Welche nicht? Was nimmst du mit, was lässt du zurück?";
+        $fav31_de = "Welche Haltung, welche Glaubenssätze, welche Gewohnheiten helfen mir? Welche nicht? Was nehme ich mit, was lasse ich zurück?";
         $fav_key311_de = "Gewohnheiten";
         $fav_key312_de = "helfen";
 
         // en
-        $fav31_en = "Which mindset, which beliefs, which habits help you? Which don`t? What do you take with you, what do you leave behind?";
+        $fav31_en = "Which mindset, which beliefs, which habits help me? Which don`t? What do I take with me, what do I leave behind?";
         $fav_key311_en = "habits";
         $fav_key312_en = "help";
 
         // pt
-        $fav31_pt = "Que mentalidade, quais crenças, quais hábitos te ajudam? Quais não? O que você leva com você, o que você deixa para trás?";
+        $fav31_pt = "Que mentalidade, quais crenças, quais hábitos me ajudam? Quais não? O que eu levo comigo, o que eu deixo para trás?";
         $fav_key311_pt = "hábitos";
         $fav_key312_pt = "ajudam";
 
         // 32_de
-        $fav32_de = "Was gibt Dir das Gefühl, eine Aufgabe gut erledigt zu haben?";
+        $fav32_de = "Was gibt mir das Gefühl, eine Aufgabe gut erledigt zu haben?";
         $fav_key321_de = "Gefühl";
         $fav_key322_de = "Aufgabe";
 
         // en
-        $fav32_en = "When do you feel like you`ve done a task well?";
+        $fav32_en = "When do you feel like I`ve done a task well?";
         $fav_key321_en = "feel";
         $fav_key322_en = "task";
 
         // pt
-        $fav32_pt = "O que faz você sentir que fez um bom trabalho?";
+        $fav32_pt = "O que me faz sentir que eu fiz um bom trabalho?";
         $fav_key321_pt = "sentir";
         $fav_key322_pt = "trabalho";
 
         // 33_de
-        $fav33_de = "Was machst Du gerne? Was gefällt Dir? Wie belohnst Du Dich?";
-        $fav_key331_de = "machst";
+        $fav33_de = "Was mache ich gerne? Was gefällt mir? Wie belohne ich mich?";
+        $fav_key331_de = "mache";
         $fav_key332_de = "gerne";
 
         // en
-        $fav33_en = "What do you like to do? What do you like? What brings you joy? How do you reward yourself?";
+        $fav33_en = "What do I like to do? What do I like? What brings me joy? How do I reward myself?";
         $fav_key331_en = "like";
         $fav_key332_en = "to do";
 
         // pt
-        $fav33_pt = "O que te traz alegria? O que você gosta? Como você se recompensa?";
+        $fav33_pt = "O que me traz alegria? O que eu gosto? Como eu me recompenso?";
         $fav_key331_pt = "traz";
         $fav_key332_pt = "alegria";
 
         // 34_de
-        $fav34_de = "Was gibt Dir das Gefühl, es kaum erwarten zu können, dass der Tag beginnt? Vielleicht nicht an allen, aber vielleicht an manchen Tagen.";
+        $fav34_de = "Was gibt mir das Gefühl, es kaum erwarten zu können, dass der Tag beginnt? Vielleicht nicht an allen, aber vielleicht an manchen Tagen.";
         $fav_key341_de = "kaum";
         $fav_key342_de = "erwarten";
 
         // en
-        $fav34_en = "What makes you feel like you can`t wait for the day to begin? Maybe not every day, but perhaps on some.";
+        $fav34_en = "What makes me feel like I can`t wait for the day to begin? Maybe not every day, but perhaps on some.";
         $fav_key341_en = "can`t";
         $fav_key342_en = "wait";
 
         // pt
-        $fav34_pt = "O que faz você sentir que não pode esperar pelo dia começar? Talvez não todos os dias, mas talvez em alguns.";
-        $fav_key341_pt = "não pode";
+        $fav34_pt = "O que me faz sentir que não posso esperar pelo dia começar? Talvez não todos os dias, mas talvez em alguns.";
+        $fav_key341_pt = "não posso";
         $fav_key342_pt = "esperar";
 
         // 35_de
-        $fav35_de = "Was bedeutet &quot;Unbeschwertheit&quot;, &quot;Leichtigkeit&quot; für Dich? Was verbindest Du damit? Wann spürst Du sie? Was nimmt sie Dir?";
+        $fav35_de = "Was bedeutet &quot;Unbeschwertheit&quot;, &quot;Leichtigkeit&quot; für mich? Was verbinde ich damit? Wann spüre ich sie? Was nimmt sie mir?";
         $fav_key351_de = "bedeutet";
         $fav_key352_de = "Leichtigkeit";
 
         // en
-        $fav35_en = "What does &quot;light-heartedness&quot; mean to you? What do you associate with it? When do you feel it? What takes it away?";
+        $fav35_en = "What does &quot;light-heartedness&quot; mean to me? What do I associate with it? When do I feel it? What takes it away?";
         $fav_key351_en = "light-heartedness";
         $fav_key352_en = "mean";
 
         // pt
-        $fav35_pt = "O que significa &quot;leveza&quot; para você? O que você associa a ela? Quando você a sente? O que tira ela de você?";
+        $fav35_pt = "O que significa &quot;leveza&quot; para mim? O que eu associo a ela? Quando eu a sinto? O que tira ela de mim?";
         $fav_key351_pt = "significa";
         $fav_key352_pt = "leveza";
 
@@ -258,49 +258,49 @@ if (isset($_POST['register'])) {
         // FURTHER USEFUL HABITS AND QUESTIONS
 
         // 41_de
-        $fav41_de = "Welche Momente geben Dir Ruhe, Klarheit? Wann bist Du konzentriert?";
+        $fav41_de = "Welche Momente geben mir Ruhe, Klarheit? Wann bin ich konzentriert?";
         $fav_key411_de = "geben";
         $fav_key412_de = "Ruhe";
 
         // en
-        $fav41_en = "Which moments give you a peace of mind, clarity? When are you focused?";
+        $fav41_en = "Which moments give me a peace of mind, clarity? When am I focused?";
         $fav_key411_en = "give";
         $fav_key412_en = "peace of mind";
 
         // pt
-        $fav41_pt = "Quais momentos te dão paz, clareza? Quando você está focado?";
+        $fav41_pt = "Quais momentos me dão paz, clareza? Quando estou focado?";
         $fav_key411_pt = "dão";
         $fav_key412_pt = "paz";
 
         // 42_de
-        $fav42_de = "Was inspiriert Dich? Worüber kannst Du staunen? Wovor hast Du Demut? Was weckt Deine Neugierde?";
+        $fav42_de = "Was inspiriert mich? Worüber kann ich staunen? Wovor habe ich Demut? Was weckt meine Neugierde?";
         $fav_key421_de = "inspiriert";
-        $fav_key422_de = "Dich";
+        $fav_key422_de = "mich";
 
         // en
-        $fav42_en = "What inspires you? What makes you amezed? What makes you humble? What sparks your curiosity?";
+        $fav42_en = "What inspires me? What makes me amezed? What makes me humble? What sparks my curiosity?";
         $fav_key421_en = "inspires";
-        $fav_key422_en = "you";
+        $fav_key422_en = "me";
 
         // pt
-        $fav42_pt = "O que te inspira? O que você admira? De que você sente humildade? O que desperta sua curiosidade?";
-        $fav_key421_pt = "te";
+        $fav42_pt = "O que me inspira? O que eu admiro? De que eu sinto humildade? O que desperta minha curiosidade?";
+        $fav_key421_pt = "me";
         $fav_key422_pt = "inspira";
 
         // (FIRST) AID
 
         // 51_de
-        $fav51_de = "Was nimmt Dir die Ruhe? Was stört Dich? Warum? Ist es wichtig?";
+        $fav51_de = "Was nimmt mir die Ruhe? Was stört mich? Warum? Ist es wichtig?";
         $fav_key511_de = "nimmt";
         $fav_key512_de = "Ruhe";
 
         // en
-        $fav51_en = "What takes away your calm? What bothers you? Why? Is it important?";
+        $fav51_en = "What takes away my calm? What bothers me? Why? Is it important?";
         $fav_key511_en = "takes";
         $fav_key512_en = "calm";
 
         // pt
-        $fav51_pt = "O que tira a paz de você? O que te incomoda? Isso é importante?";
+        $fav51_pt = "O que tira a paz de mim? O que me incomoda? Isso é importante?";
         $fav_key511_pt = "tira";
         $fav_key512_pt = "paz";
 
@@ -320,64 +320,64 @@ if (isset($_POST['register'])) {
         $fav_key522_pt = "descrevê-lo";
 
         // 53_de
-        $fav53_de = "Sind die Dinge so wie Du denkst? Könnten Sie auch anders sein? Könntest Du sie auch anders sehen? Worum geht es im Wesentlichen?";
+        $fav53_de = "Sind die Dinge so wie ich denke? Könnten Sie auch anders sein? Könnte ich sie auch anders sehen? Worum geht es im Wesentlichen?";
         $fav_key531_de = "könnten";
         $fav_key532_de = "anders";
 
         // en
-        $fav53_en = "Are things the way you think they are? Could they be different? Could you also see them in a different way? What is it essentially about?";
+        $fav53_en = "Are things the way I think they are? Could they be different? Could I also see them in a different way? What is it essentially about?";
         $fav_key531_en = "could";
         $fav_key532_en = "different";
 
         // pt
-        $fav53_pt = "As coisas são do jeito que você pensa que são? Eles poderiam ser diferentes? Você poderia vê-los de uma maneira diferente? Do que se trata essencialmente?";      
+        $fav53_pt = "As coisas são do jeito que eu penso que são? Eles poderiam ser diferentes? Eu poderia vê-los de uma maneira diferente? Do que se trata essencialmente?";      
         $fav_key531_pt = "ser";
         $fav_key532_pt = "diferentes";
 
         // 54_de
-        $fav54_de = "Was ist Dir wichtig? Was gibt Dir Zuversicht? Worauf vertraust Du? Wer oder was tröstet Dich?";
+        $fav54_de = "Was ist mir wichtig? Was gibt mir Zuversicht? Worauf vertraue ich? Wer oder was tröstet mich?";
         $fav_key541_de = "was";
         $fav_key542_de = "wichtig";
 
         // en
-        $fav54_en = "What is important to you? What gives you confidence? What do you trust? Who or what comforts you?";
+        $fav54_en = "What is important to me? What gives me confidence? What do I trust? Who or what comforts me?";
         $fav_key541_en = "what";
         $fav_key542_en = "important";
 
         // pt
-        $fav54_pt = "O que é importante para você? O que te traz confiança? Em que você confia? Quem ou o que te conforta?";
+        $fav54_pt = "O que é importante para mim? O que me traz confiança? Em que eu confio? Quem ou o que me conforta?";
         $fav_key541_pt = "o que";
         $fav_key542_pt = "importante";
 
         // WHAT I HAVE LEARNED SO FAR / GENERAL QUESTIONS
 
         // 61_de
-        $fav61_de = "Wer bist Du? Was sind Deine Eigenheiten?";
+        $fav61_de = "Wer bin ich? Was sind meine Eigenheiten?";
         $fav_key611_de = "wer";
-        $fav_key612_de = "bist";
+        $fav_key612_de = "bin";
 
         // en
-        $fav61_en = "Who are you? What are your characteristics?";
+        $fav61_en = "Who am I? What are my characteristics?";
         $fav_key611_en = "who";
-        $fav_key612_en = "are";
+        $fav_key612_en = "am";
 
         // pt
-        $fav61_pt = "Quem é você? Quais são as suas características?";
+        $fav61_pt = "Quem sou eu? Quais são as minhas características?";
         $fav_key611_pt = "quem";
-        $fav_key612_pt = "você";
+        $fav_key612_pt = "sou";
 
         // 62_de
-        $fav62_de = "Was hilft Dir bei... wennn... mit...?";
+        $fav62_de = "Was hilft mir bei... wennn... mit...?";
         $fav_key621_de = "was";
         $fav_key622_de = "hilft";
 
         // en
-        $fav62_en = "What helps you with... when... if...?";
+        $fav62_en = "What helps me with... when... if...?";
         $fav_key621_en = "what";
         $fav_key622_en = "helps";
 
         // pt
-        $fav62_pt = "O que ajuda você com... quando... se...?";
+        $fav62_pt = "O que me ajuda com... quando... se...?";
         $fav_key621_pt = "o que";
         $fav_key622_pt = "ajuda";
 
