@@ -28,9 +28,6 @@
          <tr class="noBorder_about">
             <td>
             
-            “I want to learn from myself, want to be my student, want to get to know myself, the secret of Siddhartha.” 
-            <span style="font-style: italic; text-align: left; padding-right: 70px;">Hermann Hesse, Siddhartha</span>
-            </br></br></br>
             There are probably millions of books, magazines, columns, and guides on how best to deal with the contradictions that constantly 
             open up between reality and our desires and ideals.
             </br></br>

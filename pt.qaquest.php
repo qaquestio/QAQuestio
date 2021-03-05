@@ -18,25 +18,14 @@
             <tr style="vertical-align: top;">
                <td>
                <h1>QAQuestio</h1>
-                  </br></br>
-                  <form id="frm" action="qaquest_echo.php" method="get" accept-charset="utf-8">
-                     <input class="qaquest_input" name="question" placeholder="Role o mouse para baixo para descobrir mais..."/>
-                  </form>
+               </br></br></br>
+                  “Quero aprender de mim mesmo, quero ser meu aluno, quero me conhecer,</br>
+                  o segredo de Siddhartha.” 
+                  <span style="font-style: italic; text-align: left; padding-right: 70px;">Hermann Hesse, Siddhartha</span>
+   
                </td>
             </tr>
          </table>
-      </li>
-      <li>
-         <p></br></br>
-         Pare por um momento.</br>
-         </br>
-         *</p>
-      </li>
-      <li>
-         <p></br></br>
-         Pegue um folha de papel.</br>
-         </br>
-         *</p>
       </li>
       <li>
          <p></br></br>

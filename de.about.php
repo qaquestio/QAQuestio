@@ -28,11 +28,7 @@
          </tr>
          <tr class="noBorder_about">
             <td>
-
-               “Bei mir selbst will ich lernen, will ich Schüler sein, will ich mich kennenlernen, das Geheimnis
-               Siddhartha.”
-               <span style="font-style: italic; text-align: left; padding-right: 70px;">Hermann Hesse, Siddhartha</span>
-               </br></br></br>
+               
                Es gibt vermutlich Millionen von Büchern, Zeitschriften, Kolumnen und Anleitungen, die sich damit
                beschäftigen, wie wir am besten mit den Widersprüchen umgehen, die sich ständig zwischen der Realität und unseren Wünschen und Idealen auftun.
                </br></br>

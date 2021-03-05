@@ -28,9 +28,6 @@
          <tr class="noBorder_about">
             <td>
             
-            “Quero aprender de mim mesmo, quero ser meu aluno, quero me conhecer, o segredo de Siddhartha.” 
-            <span style="font-style: italic; text-align: left; padding-right: 70px;">Hermann Hesse, Siddhartha</span>
-            </br></br></br>
             Existem provavelmente milhões de livros, revistas, colunas e guias sobre a melhor maneira de lidar com as contradições que 
             constantemente se abrem entre a realidade e os nossos desejos e ideais.
             </br></br>
@@ -53,7 +50,7 @@
             QAQuestio ajuda você a aguçar sua consciência e senso de hábitos e pensamentos úteis, e encontrar um caminho através das rotinas e desafios diários. 
             Ao fazer isso, QAQuestio transforma algo que as vezes até queremos evitar em algo lúdico.
             </br></br>
-            Isto cria espaços livres e espaços para retiro nos quais você pode agora ir em busca de sua própria idéia e definição de "felicidade" e "sucesso".
+            Isto cria espaços livres e e momentos de interiorização nos quais você pode agora ir em busca de sua própria idéia e definição de "felicidade" e "sucesso".
             </br></br>
             QAQuestio lhe dá uma estrutura básica para encontrar palavras para seus sentimentos e desejos e assim entendê-los melhor. 
             A ferramenta capacita você a desenvolver suas próprias ferramentas e hábitos úteis passo a passo. 

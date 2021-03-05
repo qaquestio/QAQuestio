@@ -36,7 +36,7 @@
             </br>
             2.) Coloque pelo menos duas palavras chaves (Keywords), ou mesmo partes destas palavras (p.ex. "leveza" --> "lev"), de sua pergunta.</br>
             </br>
-            E assim que você inserir esta pergunta no campo de busca, a sua resposta pessoal será exibida.</br>
+            E assim que você inserir esta pergunta,ou uma pergunta com palavras semelhantes, no campo de busca, a sua resposta pessoal será exibida.</br>
             </br>
             3.) Para priorizar suas perguntas use “Rating” e “Favourite”</br>
             </br>

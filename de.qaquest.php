@@ -18,27 +18,15 @@
             <tr style="vertical-align: top; align: center;">
                <td style="text-align: center;">
                   <h1>QAQuestio</h1>
-                  </br></br>
-                  <form id="frm" action="qaquest_echo.php" method="get" accept-charset="utf-8">
-                     <input class="qaquest_input" name="question" placeholder="Scrolle nach unten, um mehr zu erfahren..."/>
-                  </form>
+                  </br></br></br>
+                  “Bei mir selbst will ich lernen, will ich Schüler sein, will ich mich kennenlernen,</br> 
+                  das Geheimnis Siddhartha.”
+               <span style="font-style: italic; text-align: left; padding-right: 70px;">Hermann Hesse, Siddhartha</span>
                </td>
             </tr>
          </table>
       </li>
-      <li>
-         <p></br></br>
-         Halte einen Moment inne.</br>
-         </br>
-         *</p>
-      </li>
-      <li>
-         <p></br></br>
-         Nimm ein Blatt Papier.</br>
-         </br>
-         *</p>
-      </li>
-      <li>
+        <li>
          <p></br></br>
          Was möchtest Du heute tun? Gibt es etwas, worauf Du Dich freust?</br>
          </br>

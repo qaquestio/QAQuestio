@@ -36,7 +36,7 @@
             </br>
             2.) Enter at least two keywords, or even parts of these words (e.g. "light-heartedness" --> "light") from your question.</br>
             </br>
-            As soon as you enter this question in the search field later, your personal answer will be displayed.</br>
+            As soon as you enter this question, or a similarly worded question, in the search field later, your personal answer will be displayed.</br>
             </br>
             3.) To rank your questions, use "Rating" and "Favourite".</br>
             </br>

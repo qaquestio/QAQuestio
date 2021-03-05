@@ -36,7 +36,7 @@
             </br>
             2.) Gib mindestens zwei Schlüsselwörter (Keywords), oder auch nur Teile dieser Wörter (z.B. "Leichtigkeit" --> "leichti"), aus deiner Frage ein.</br>
             </br>
-            Sobald Du diese Frage später in das Suchfeld eingibst, wird Deine persönliche Antwort angezeigt.</br>
+            Sobald Du diese Frage, oder eine ähnlich formulierte Frage, später in das Suchfeld eingibst, wird Deine persönliche Antwort angezeigt.</br>
             </br>
             3.) Um Deine Fragen zu ordnen, verwende “Rating” und “Favourite”</br>
             </br>
