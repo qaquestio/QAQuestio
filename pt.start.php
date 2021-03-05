@@ -22,6 +22,10 @@ include 'head.php';
       <ul class="scroller">
       <li id="home">
          <table class="qaquest_table">
+            <tr>
+               <td style="height: 200px;">
+               </td>
+            </tr>
             <tr style="vertical-align: top;">
             <td>
             <h1>QAQuestio</h1>
