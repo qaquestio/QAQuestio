@@ -45,6 +45,12 @@
                <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Der Wolkenatlas</span>
             </p>
          </li>
+         <li>
+         <p></br></br>
+         Sei aufmerksam.</br>
+         </br>
+         *</p>
+      </li>
         <li id="section02">
          <p></br></br>
          Was möchtest Du heute tun? Gibt es etwas, worauf Du Dich freust?</br>

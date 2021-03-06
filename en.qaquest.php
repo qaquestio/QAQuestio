@@ -43,6 +43,13 @@
                   <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Sit down a beat or two. Hold out your hands. Look."</br></span>
                   <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Cloud Atlas</span>
             </p>
+      </li>
+      <li>
+         <p></br></br>
+         Be mindful.</br>
+         </br>
+         *</p>
+      </li>
       <li>
          <p></br></br>
             What do you want to do today? Is there something you are looking forward to?</br>
