@@ -16,7 +16,7 @@
       <li id="home">
          <table class="qaquest_table">
             <tr>
-               <td style="height: 200px;">
+               <td style="height: 30vh;">
                </td>
             </tr>
             <tr style="vertical-align: top; align: center;">
