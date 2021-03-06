@@ -52,7 +52,7 @@ if ($result->num_rows == 1) {
       <div class="topnav">
          <div class="topnav-right">
             <a href="pt.start.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="pt.view.php">Edit</a>
+            <a href="pt.p_view.php">Lista</a>
          </div>
       </div>
       </nav>
@@ -60,7 +60,8 @@ if ($result->num_rows == 1) {
   <table class="echo_table">
     <tr>
       <td class="echo_bold">
-  <?php echo "Nenhuma ou múltiplas respostas encontradas. Revise seus itens.";
+  <?php echo "Nenhuma ou múltiplas respostas encontradas. </br>
+               Revise seus itens (veja &quotLista&quot).";
 }
 $conn->close();
 ?>
