@@ -305,17 +305,17 @@ if (isset($_POST['register'])) {
         $fav_key512_pt = "paz";
 
         // 52_de
-        $fav52_de = "Versuche es so genau wie möglich zu beschreiben. Nutze das Schreiben als Ventil.";
+        $fav52_de = "Versuche es so genau wie möglich zu beschreiben. Nimm ein Blatt Papier. Nutze das Schreiben als Ventil.";
         $fav_key521_de = "versuche";
         $fav_key522_de = "beschreiben";
 
         // en
-        $fav52_en = "Try to describe it as precisely as possible. Use writing as relief valve.";
+        $fav52_en = "Try to describe it as precisely as possible. Take a piece of paper. Use writing as relief valve.";
         $fav_key521_en = "try";
         $fav_key522_en = "describe";
 
         // pt
-        $fav52_pt = "Tente descrevê-lo da maneira mais precisa possível. Use a escrita como válvula de escape.";
+        $fav52_pt = "Tente descrevê-lo da maneira mais precisa possível. Pegue uma folha de papel. Use a escrita como válvula de escape.";
         $fav_key521_pt = "tente";
         $fav_key522_pt = "descrevê-lo";
 

@@ -31,7 +31,7 @@ include 'head.php';
             <h1>QAQuestio</h1>
                   </br></br>
                   <form id="frm" action="de.echo.php" method="get" accept-charset="utf-8">
-                     <input class="qaquest_input" name="question" placeholder="Gib Deine Frage ein..."/>
+                     <input class="qaquest_input" name="question" placeholder="Gib deine Frage ein..."/>
                   </form>
                </td>
             </tr>
