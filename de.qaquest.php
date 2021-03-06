@@ -23,11 +23,7 @@
                <td style="text-align: center;">
                   <h1>QAQuestio</h1>
                   </br></br></br>
-                  <!-- <a href="#section02" id="nodecoration_black">“Bei mir selbst will ich lernen, will ich Schüler sein, will ich mich kennenlernen,</br> 
-                  das Geheimnis Siddhartha.”</a> -->
-                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Bei mir selbst will ich lernen, will ich Schüler sein,</br>  
-                   will ich mich kennenlernen, das Geheimnis Siddhartha."</span><br>
-                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">Hermann Hesse, Siddhartha</span>
+                  
                </td>
             </tr>
             <tr style="vertical-align: bottom;">
@@ -38,6 +34,17 @@
             </tr>
          </table>
       </li>
+         <li>
+            <p>
+               </br>
+               <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Bei mir selbst will ich lernen, will ich Schüler sein,</br>  
+               will ich mich kennenlernen, das Geheimnis Siddhartha."</span><br>
+               <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">Hermann Hesse, Siddhartha</span>
+               </br> </br>
+               <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Setzt euch für n Augnblick oder zwei. Haltet eure Hände auf. Da."</br></span>
+               <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Der Wolkenatlas</span>
+            </p>
+         </li>
         <li id="section02">
          <p></br></br>
          Was möchtest Du heute tun? Gibt es etwas, worauf Du Dich freust?</br>

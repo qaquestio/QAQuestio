@@ -22,10 +22,7 @@
                <td>
                <h1>QAQuestio</h1>
                </br></br></br>
-                  </br> 
-                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"I want to learn from myself, want to be my student,</br>  
-                   want to get to know myself, the secret of Siddhartha."</span><br>
-                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">Hermann Hesse, Siddhartha</span>
+                 
                </td>
             </tr>
             <tr style="vertical-align: bottom;">
@@ -37,16 +34,21 @@
          </table>
       </li>
       <li>
+         <p>
+         </br> 
+                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"I want to learn from myself, want to be my student,</br>  
+                   want to get to know myself, the secret of Siddhartha."</span><br>
+                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">Hermann Hesse, Siddhartha</span>
+                  </br> </br>
+                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Sit down a beat or two. Hold out your hands. Look."</br></span>
+                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Cloud Atlas</span>
+            </p>
+      <li>
          <p></br></br>
             What do you want to do today? Is there something you are looking forward to?</br>
          </br>
          *</p>
       </li>
-
-      <!-- <li>
-         <p></br></br>
-         *</p>
-      </li> -->
       
       <?php include 'en.footer.php';?>
 
