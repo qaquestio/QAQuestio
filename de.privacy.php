@@ -1,5 +1,5 @@
 <?php
-   include 'head.php';
+   include 'de.head.php';
    ?>
 <title>QAQuestio | Datenschutz</title>
 </head>

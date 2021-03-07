@@ -1,7 +1,7 @@
 <?php
 @ob_start();
 session_start();
-include 'head.php';?>
+include 'en.head.php';?>
 
 <title>Create new password</title>
 </head>

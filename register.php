@@ -1,4 +1,4 @@
-<?php include ('head.php'); ?>
+<?php include ('en.head.php'); ?>
 
 </head>
 <body>
@@ -6,6 +6,7 @@
       <div class="topnav">
          <div class="topnav-right">
             <a href="index.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="en.privacy.php" target="_blank">Privacy</a>
          </div>
       </div>
    </nav>

@@ -1,4 +1,4 @@
-<?php include 'head.php';?>
+<?php include 'pt.head.php';?>
 
 <title>QAQuestio</title>
 </head>

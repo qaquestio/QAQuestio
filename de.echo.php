@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-include 'head.php';
+include 'de.head.php';
 ?>
 
 <title>QAQuest | Echo</title>
@@ -61,8 +61,7 @@ if ($result->num_rows == 1) {
   <table class="echo_table">
     <tr>
       <td class="echo_bold">
-  <?php echo "Keine oder mehrere Antworten gefunden. </br>
-               Überprüfe Deine Eingaben (siehe &quotListe&quot).";
+  <?php echo "Keine oder mehrere Antworten gefunden. Überprüfe Deine Eingaben (siehe &quotListe&quot).";
 }
 
 

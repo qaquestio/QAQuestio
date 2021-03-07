@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-include 'head.php';
+include 'en.head.php';
 ?>
 
 <script src="https://cdn.ckeditor.com/ckeditor5/23.1.0/classic/ckeditor.js"></script>

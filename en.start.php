@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-include 'head.php';
+include 'en.head.php';
 ?>
 <title>QAQuestio | Start</title>
 </head>

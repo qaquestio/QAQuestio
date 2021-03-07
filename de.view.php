@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-include 'head.php';
+include 'de.head.php';
 ?>
 <title>QAQuestio | View Records</title>
 </head>

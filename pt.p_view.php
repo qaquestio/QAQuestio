@@ -1,6 +1,7 @@
 <?php
 include 'auth.php';
-include 'head.php';
+include 'pt.head.php';
+
 ?>
 
 <title>QAQuest | Visualização de impressão</title>
@@ -29,8 +30,8 @@ require 'conn/conn.php';
             <tr align="left" style="background-color: rgb(172, 172, 172); padding: 5px;">
                <th><strong>Nr.</strong></th>
                <th><strong>Pergunta</strong></th>
-               <th><strong>KeyW1</strong></th>
-               <th><strong>KeyW2</strong></th>
+               <th><strong>Keyw1</strong></th>
+               <th><strong>Keyw2</strong></th>
                <th><strong></strong></th>
                <th><strong></strong></th>
             </tr>

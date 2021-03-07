@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-include 'head.php';
+include 'pt.head.php';
 ?>
 <title>QAQuestio</title>
 </head>

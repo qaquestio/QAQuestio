@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-include 'head.php';
+include 'en.head.php';
 ?>
 
 <title>QAQuestio | Print preview</title>
@@ -29,8 +29,8 @@ require 'conn/conn.php';
             <tr align="left" style="background-color: rgb(172, 172, 172); padding: 5px;">
                <th><strong>Nr.</strong></th>
                <th><strong>Question</strong></th>
-               <th><strong>KeyW1</strong></th>
-               <th><strong>KeyW2</strong></th>
+               <th><strong>Keyw1</strong></th>
+               <th><strong>Keyw2</strong></th>
                <th><strong></strong></th>
                <th><strong></strong></th>
             </tr>

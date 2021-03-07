@@ -1,5 +1,5 @@
 <?php
-   include 'head.php';
+   include 'pt.head.php';
    ?>
 <title>QAQuestio | Help</title>
 </head>
