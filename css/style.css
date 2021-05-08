@@ -157,11 +157,20 @@ td.qaquest_footer {
 
 td.echo {
 	font-family: 'TimesSemiLight', Times, serif;
+	text-align: left;
 	font-weight: 100;
 	font-size: 1.4rem;
 }
 
+td.echo_qu {
+	font-family: 'TimesSemiLight', Times, serif;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
 td.echo_bold {
+	text-align: left;
 	font-weight: 300;
 	font-size: 1.2rem;
 }
@@ -205,7 +214,8 @@ li h3.h3_footer {
 
 	h1 {
 		font-size: 5vw;
-		font-family: BlackMagic;
+		/* font-family: BlackMagic; */
+		font-family: TimesSemiLight;
 		color: #313131;
 		text-shadow: 2px 2px 5px #000000;
 		font-weight: normal;
@@ -231,7 +241,7 @@ li h3.h3_footer {
 		float: right;
 		color: #000000;
 		text-align: center;
-		padding: 16px 30px 30px 12px;
+		padding: 16px 15px 30px 15px;
 		text-decoration: none;
 		font-size: 18px;
 	}
@@ -239,7 +249,7 @@ li h3.h3_footer {
 		float: right;
 		color: #000000;
 		text-align: center;
-		padding: 16px 30px 30px 12px;
+		padding: 16px 15px 30px 15px;
 		text-decoration: none;
 		font-size: 18px;
 	}
@@ -250,7 +260,8 @@ li h3.h3_footer {
 
 	.menu_logo {
 		font-size: 70px;
-		font-family: BlackMagic;
+		/* font-family: BlackMagic; */
+		font-family: TimesSemiLight;
 		color: #313131;
 		text-shadow: 2px 2px 5px #000000;
 		font-weight: normal;
@@ -381,7 +392,8 @@ li h3.h3_footer {
 
   h1 {
 	font-size: 14vw;
-	font-family: BlackMagic;
+	/* font-family: BlackMagic; */
+	font-family: TimesSemiLight;
 	color: #313131;
 	text-shadow: 2px 2px 5px #000000;
 	font-weight: normal;
@@ -407,7 +419,7 @@ li h3.h3_footer {
 		float: right;
 		color: #000000;
 		text-align: center;
-		padding: 16px 30px 30px 12px;
+		padding: 16px 15px 30px 15px;
 		text-decoration: none;
 		font-size: 16px;
 	}
@@ -415,7 +427,7 @@ li h3.h3_footer {
 		float: right;
 		color: #000000;
 		text-align: center;
-		padding: 16px 30px 30px 12px;
+		padding: 16px 15px 30px 15px;
 		text-decoration: none;
 		font-size: 16px;
 	}
@@ -427,7 +439,8 @@ li h3.h3_footer {
 
 	.menu_logo {
 		font-size: 70px;
-		font-family: BlackMagic;
+		/* font-family: BlackMagic; */
+		font-family: TimesSemiLight;
 		color: #313131;
 		text-shadow: 2px 2px 5px #000000;
 		font-weight: normal;
@@ -548,7 +561,8 @@ li h3.h3_footer {
 		background-color: #0099cc;
 	}
 	.index_title {
-		font-family: BlackMagic;
+		/* font-family: BlackMagic; */
+		font-family: TimesSemiLight;
 		color: #A9A9A9;
 		text-shadow: 7px 7px 2px #000000;
 		font-weight: normal;
