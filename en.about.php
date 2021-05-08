@@ -27,14 +27,14 @@
          </tr>
          <tr class="noBorder_about">
             <td>
-            
-            There are probably millions of books, magazines, columns, and guides on how best to deal with the contradictions that constantly 
+            </br>
+            There are probably millions of books, magazines, columns, and guides on how best to deal with the absurdities of life and the contradictions that constantly 
             open up between reality and our desires and ideals.
             </br></br>
-            We may try to find shortcuts to these ideals, and may find out that they do not exist. 
+            We may try to find recipes and shortcuts to these ideals, and may find out that they do not exist. 
             Or as the philosopher Konersmann describes it: "Our fantasy of paradise is something other than what [...] paradies should have been."
             </br></br>
-            However, at some point we want to get to conclusions, reach milestones on our quest for answers and find some peace of mind.
+            However, at some point we want to get to conclusions, reach milestones on our quest for answers and find some clarity and peace of mind.
             </br></br>
             And even though there are probably as many definitions for these great ideas like "happiness" and "success" as there live people in this 
             world, they do have one thing in common.
@@ -45,7 +45,7 @@
             QAQuestio is a personal search tool that comes to life from self-created question-answer combinations. 
             It is a self-organization tool that uses Q&A mechanisms to trigger lasting learning effects and reinforcing loops and that guides you to discover the essence of your questions.
             </br></br>
-            QAQuestio helps you to sharpen your awareness and sense for helpful habits and mindsets, and to find a way through daily routines and challenges. 
+            QAQuestio helps you to sharpen your awareness and sense for behaivior patterns, for helpful habits and mindsets, and to find a way through daily routines and challenges. 
             It turns something we sometimes even try to avoid into something playful.
             </br></br>
             It is a tool that helps you get more time. Time you can now use to focus on finding your own goals and your own definition of “success”. 
@@ -53,14 +53,14 @@
             QAQuestio is your red thread in this maze of advices and ideals.  
             QAQuestio helps you figure out which ones are significant and make sense to you and which ones don't. 
             </br></br>
-            This creates free spaces and spaces for retreat in which you can now go on your quest for your own idea and definition of "happiness" and "success".
+            You create free spaces and spaces for retreat for yourself in which you can now go on your quest for your own idea and definition of "happiness" and "success".
             </br></br>
             QAQuestio gives you a basic structure to find words for your feelings and desires and thus to understand them better.
-            The tool empowers you to develop your own tools and helpful habits step by step.  
+            The tool empowers you to develop your own simple and powerful tools step by step.  
             </br></br>
-            QAQuestio helps you to keep things more simple and in this way to overcome dependencies, that we may have accepted on our quest for a way back to paradise.
+            QAQuestio helps you to sort out what is important, to keep things more simple and in this way to overcome dependencies, that we may have accepted on our quest for a way back to paradise.
             </br></br>
-            QAQuestio thus becomes your compass, bringing you back again and again to your helpful habits and mindsets and guiding you to turn vague ideas into convictions.
+            QAQuestio thus becomes your compass, bringing you back again and again to your helpful habits and mindsets and guiding you to turn vague ideas and feelings into convictions.
             </br></br></br>
             Ready? All you need to get started is a pen, a sheet of paper and your answer to the question of what you want to do today.
             </td>

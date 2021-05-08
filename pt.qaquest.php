@@ -7,8 +7,8 @@
    <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="en.qaquest.php">EN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="login.php">Login</a>
+            <a href="en.qaquest.php">[  EN  ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="login.php">[  Login  ]</a>
          </div>
       </div>
    </nav>
@@ -36,13 +36,14 @@
       </li>
       <li>
          <p>      
-                  </br>
+                  </br></br>
                   <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Quero aprender de mim mesmo, quero ser meu aluno,</br>  
                   quero me conhecer, o segredo de Siddhartha."</span><br>
                   <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">Hermann Hesse, Siddhartha</span>
-                  </br> </br>
+                  </br></br> 
+                  <!-- </br>
                   <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Sente-se por um momento ou dois. Estenda suas mãos. Veja."</br></span>
-                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Atlas de Nuvens</span>
+                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Atlas de Nuvens</span> -->
          </p>
       </li>
       <li>
@@ -54,7 +55,7 @@
 
       <li>
          <p></br></br>
-         O que você quer fazer hoje? Há algo pelo qual já você está ansioso em realizar?</br>
+         O que você quer fazer hoje? </br>
          </br>
          *</p>
       </li>

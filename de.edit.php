@@ -6,14 +6,13 @@ include 'de.head.php';
 <script src="https://cdn.ckeditor.com/ckeditor5/23.1.0/classic/ckeditor.js"></script>
 <title>QAQuestio | Bearbeiten</title>
 </head>
-
 <body>
    <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="de.start.php">Home</a>
-            <a href="de.help.php" target="_blank" title="Hilfe" id="nodecoration_black">( i )</a>
-            <a href="de.view.php">Übersicht</a>
+            <a href="de.help.php" target="_blank" title="Hilfe" id="nodecoration_black">[  i  ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="de.p_view.php">[   Meine Fragen   ]</a>
+            <a href="de.start.php">[   Frage mich...   ]</a>
          </div>
       </div>
    </nav>
@@ -41,10 +40,9 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
     $answer = $_REQUEST['answer'];
     $rating = $_REQUEST['rating'];
     $c_date = date("Y-m-d H:i:s");
-    $fav = $_REQUEST['fav'];
     $update = "UPDATE data SET question='" . $question . "',
                keyw1='" . $keyw1 . "', keyw2='" . $keyw2 . "', keyw3='" . $keyw3 . "',
-               answer='" . $answer . "', rating='" . $rating . "', c_date='" . $c_date . "', fav='" . $fav . "' WHERE id='" . $id . "'";
+               answer='" . $answer . "', rating='" . $rating . "', c_date='" . $c_date . "' WHERE id='" . $id . "'";
     mysqli_query($conn, $update) or die(mysqli_error());
     ?>
 
@@ -77,22 +75,18 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
                      required value="<?php echo $row['question']; ?>" /></p>
                </br>
                <label style="font-weight: bold;">Keywords</label><br />
-               <p><input class="edit_input" type="text" name="keyw1" placeholder="Enter Keyword 1" required
+               <p><input class="edit_input" type="text" name="keyw1" placeholder="Gib Keyword 1 ein" required
                      value="<?php echo $row['keyw1']; ?>" /></p>
                </br>
-               <p><input class="edit_input" type="text" name="keyw2" placeholder="Enter Keyword 2" required
+               <p><input class="edit_input" type="text" name="keyw2" placeholder="Gib Keyword 2 ein" required
                      value="<?php echo $row['keyw2']; ?>" /></p>
                </br>
-               <p><input class="edit_input" type="text" name="keyw3" placeholder="Enter Keyword 3 or leave blank"
+               <p><input class="edit_input" type="text" name="keyw3" placeholder="Leer lassen oder Keyword 3 eingeben"
                      value="<?php echo $row['keyw3']; ?>" /></p>
                </br>
-               <label style="font-weight: bold;">Rating (1 - 100)</label><br />
-               <p><input class="edit_input" type="number" name="rating" placeholder="Enter your rating" required
+               <label style="font-weight: bold;">Relevanz (1 - 100)</label><br />
+               <p><input class="edit_input" type="number" name="rating" placeholder="Gib einen Wert für die Relevanz ein" required
                      value="<?php echo $row['rating']; ?>" /></p>
-               </br>
-               <label style="font-weight: bold;">Favourite (1=Ja, 0=Nein)</label><br />
-               <p><input class="edit_input" type="number" name="fav" placeholder="Favorit (Ja=1, Nein=0)" required
-                     value="<?php echo $row['fav']; ?>" /></p>
                </br></br>
                <label style="font-weight: bold;">Deine Antwort</label><br />
                <p style="font-size: 18px;"><textarea name="answer" id="ckeditor" rows="10" cols="100"
@@ -100,7 +94,15 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
                   <?php echo $row['answer']; ?></textarea>
                </p>
                </br>
-               <p><input name="submit" type="submit" value="Aktualisieren" /></p>
+               <table>
+                  <tr>
+                     <td><input name="submit" type="submit" value="Aktualisieren" />
+                     </td>
+                     <td style="text-align: right; width: 10%;"><a href="de.delete.php?id=<?php echo $row["id"]; ?>
+                        "onclick="return  confirm('Eintrag löschen?')" id="nodecoration_black" id="nodecoration_black" style="text-align: right;">Löschen</a>
+                     </td>
+                  </tr>
+               </table>
             </form>
             <div style="height: 100px;"></div>
             <?php

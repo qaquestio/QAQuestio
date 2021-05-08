@@ -72,36 +72,53 @@ if (isset($_POST['register'])) {
         $fav_key122_pt = "folha";
 
         // 13_de
-        $fav13_de = "Was möchte ich heute tun? Gibt es etwas, worauf ich mich freue?";
-        $fav_key131_de = "heute";
+        $fav13_de = "Was möchte ich heute tun?";
+        $fav_key131_de = "möchte";
         $fav_key132_de = "tun";
 
         // en
-        $fav13_en = "What do I want to do today? Is there something I am looking forward to?";
-        $fav_key131_en = "do";
-        $fav_key132_en = "today";
+        $fav13_en = "What do I want to do today?";
+        $fav_key131_en = "want";
+        $fav_key132_en = "do";
 
         // pt
-        $fav13_pt = "O que eu quero fazer hoje? Há algo pelo qual eu estou ansioso em fazer hoje?";
-        $fav_key131_pt = "fazer";
-        $fav_key132_pt = "hoje";
+        $fav13_pt = "O que eu quero fazer hoje?";
+        $fav_key131_pt = "quero";
+        $fav_key132_pt = "fazer";
 
+        
         // 14_de
-        $fav14_de = "Um Fragen und Antworten zu erstellen, zu bearbeiten oder zu entfernen gehe auf &quot;Bearbeiten&quot;.";
-        $fav_key141_de = "Fragen";
-        $fav_key142_de = "erstellen";
+        $fav14_de = " Was sollte ich tun? Was verhilft mir zu Klarheit?";
+        $fav_key141_de = "sollte";
+        $fav_key142_de = "tun";
 
         // en
-        $fav14_en = "To create, edit or remove questions and answers got to &quot;Edit&quot;.";
-        $fav_key141_en = "create";
-        $fav_key142_en = "questions";
+        $fav14_en = "What should I do? How do I gain clarity?";
+        $fav_key141_en = "should";
+        $fav_key142_en = "do";
 
         // pt
-        $fav14_pt = "Para criar, editar ou remover perguntas e respostas clique em &quot;Editar&quot;.";
-        $fav_key141_pt = "criar";
-        $fav_key142_pt = "perguntas";
+        $fav14_pt = "O que eu devia fazer hoje? Como posso ter clareza?";
+        $fav_key141_pt = "devia";
+        $fav_key142_pt = "fazer";
+        
+        
+        // 15_de
+        $fav15_de = "Um Fragen und Antworten zu erstellen, zu bearbeiten oder zu entfernen gehe auf &quot;Bearbeiten&quot;.";
+        $fav_key151_de = "Fragen";
+        $fav_key152_de = "erstellen";
 
-        // WISHES / STEPS / HELP / OBSTACLES
+        // en
+        $fav15_en = "To create, edit or remove questions and answers got to &quot;Edit&quot;.";
+        $fav_key151_en = "create";
+        $fav_key152_en = "questions";
+
+        // pt
+        $fav15_pt = "Para criar, editar ou remover perguntas e respostas clique em &quot;Editar&quot;.";
+        $fav_key151_pt = "criar";
+        $fav_key152_pt = "perguntas";
+
+        /* // WISHES / STEPS / HELP / OBSTACLES
 
         // 21_de
         $fav21_de = "Was wünsche ich mir? Was hoffe ich? Worauf möchte ich hinarbeiten?";
@@ -166,17 +183,17 @@ if (isset($_POST['register'])) {
         // HABITS MINDSETS
 
         // 31_de
-        $fav31_de = "Welche Haltung, welche Glaubenssätze, welche Gewohnheiten helfen mir? Welche nicht? Was nehme ich mit, was lasse ich zurück?";
+        $fav31_de = "Welche Haltung, welche Gewohnheiten, welche Fragen helfen mir? Welche nicht?";
         $fav_key311_de = "Gewohnheiten";
         $fav_key312_de = "helfen";
 
         // en
-        $fav31_en = "Which mindset, which beliefs, which habits help me? Which don`t? What do I take with me, what do I leave behind?";
+        $fav31_en = "Which mindset, which habits, which questions help me? Which don`t?";
         $fav_key311_en = "habits";
         $fav_key312_en = "help";
 
         // pt
-        $fav31_pt = "Que mentalidade, quais crenças, quais hábitos me ajudam? Quais não? O que eu levo comigo, o que eu deixo para trás?";
+        $fav31_pt = "Que mentalidade, quais hábitos, quais perguntas me ajudam? Quais não?";
         $fav_key311_pt = "hábitos";
         $fav_key312_pt = "ajudam";
 
@@ -240,7 +257,7 @@ if (isset($_POST['register'])) {
         $fav_key351_pt = "significa";
         $fav_key352_pt = "leveza";
 
-        // 36_de
+         // 36_de
         $fav36_de = "Sei aufmerksam.";
         $fav_key361_de = "sei";
         $fav_key362_de = "aufmerksam";
@@ -254,6 +271,22 @@ if (isset($_POST['register'])) {
         $fav36_pt = "Fique atento.";
         $fav_key361_pt = "fique";
         $fav_key362_pt = "atento";
+
+        // 37_de
+        $fav37_de = "Mache Dir Notizen.";
+        $fav_key371_de = "mache";
+        $fav_key372_de = "Notizen";
+
+        // en
+        $fav37_en = "Take notes.";
+        $fav_key371_en = "take";
+        $fav_key372_en = "notes";
+
+        // pt
+        $fav36_pt = "Faça as suas anotações.";
+        $fav_key371_pt = "faça";
+        $fav_key372_pt = "anotações";
+
 
         // FURTHER USEFUL HABITS AND QUESTIONS
 
@@ -379,7 +412,7 @@ if (isset($_POST['register'])) {
         // pt
         $fav62_pt = "O que me ajuda com... quando... se...?";
         $fav_key621_pt = "o que";
-        $fav_key622_pt = "ajuda";
+        $fav_key622_pt = "ajuda"; */
 
         // QAQuest FAQ
 
@@ -420,34 +453,16 @@ if (isset($_POST['register'])) {
                 $query1 = "INSERT INTO users (username, email, password, r_date)
            VALUES ('$username', '$email', '" . md5($password) . "', '$r_date')";
                 $results = mysqli_query($conn, $query1);
-                echo 'Usuário e perguntas pré-definidas';
+                echo 'Usuário foi criado.</br></br>';
                 echo '<br>';
                 $query2 = "INSERT INTO data (question, keyw1, keyw2, keyw3, answer, c_date, uid, rating, fav)
             VALUES  ('$fav11_pt', '$fav_key111_pt', '$fav_key112_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '99', '1'),
                     ('$fav12_pt', '$fav_key121_pt', '$fav_key122_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '98', '1'),
                     ('$fav13_pt', '$fav_key131_pt', '$fav_key132_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '97', '1'),
                     ('$fav14_pt', '$fav_key141_pt', '$fav_key142_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '96', '1'),
-                    ('$fav21_pt', '$fav_key211_pt', '$fav_key212_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '89', '0'),
-                    ('$fav22_pt', '$fav_key221_pt', '$fav_key222_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '88', '0'),
-                    ('$fav23_pt', '$fav_key231_pt', '$fav_key232_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '87', '0'),
-                    ('$fav24_pt', '$fav_key241_pt', '$fav_key242_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '85', '0'),
-                    ('$fav31_pt', '$fav_key311_pt', '$fav_key312_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '79', '0'),
-                    ('$fav32_pt', '$fav_key321_pt', '$fav_key322_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '78', '0'),
-                    ('$fav33_pt', '$fav_key331_pt', '$fav_key332_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '77', '0'),
-                    ('$fav34_pt', '$fav_key341_pt', '$fav_key342_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '76', '0'),
-                    ('$fav35_pt', '$fav_key351_pt', '$fav_key352_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '75', '0'),
-                    ('$fav36_pt', '$fav_key361_pt', '$fav_key362_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '74', '0'),
-                    ('$fav41_pt', '$fav_key411_pt', '$fav_key412_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '69', '0'),
-                    ('$fav42_pt', '$fav_key421_pt', '$fav_key422_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '68', '0'),
-                    ('$fav51_pt', '$fav_key511_pt', '$fav_key512_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '59', '0'),
-                    ('$fav52_pt', '$fav_key521_pt', '$fav_key522_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '58', '0'),
-                    ('$fav53_pt', '$fav_key531_pt', '$fav_key532_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '57', '0'),
-                    ('$fav54_pt', '$fav_key541_pt', '$fav_key542_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '56', '0'),
-                    ('$fav61_pt', '$fav_key611_pt', '$fav_key612_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '49', '0'),
-                    ('$fav62_pt', '$fav_key621_pt', '$fav_key622_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '48', '0'),
+                    ('$fav15_pt', '$fav_key151_pt', '$fav_key152_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '95', '1'),
                     ('$fav71_pt', '$fav_key711_pt', '$fav_key712_pt', '', '$fav_ans71_pt', '$r_date', LAST_INSERT_ID(), '100', '0')";
                 $results = mysqli_query($conn, $query2);
-                echo 'foram criados.';
                 exit();
 
             } else if ($lc == "de") {
@@ -462,27 +477,9 @@ if (isset($_POST['register'])) {
                     ('$fav12_de', '$fav_key121_de', '$fav_key122_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '98', '1'),
                     ('$fav13_de', '$fav_key131_de', '$fav_key132_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '97', '1'),
                     ('$fav14_de', '$fav_key141_de', '$fav_key142_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '96', '1'),
-                    ('$fav21_de', '$fav_key211_de', '$fav_key212_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '89', '0'),
-                    ('$fav22_de', '$fav_key221_de', '$fav_key222_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '88', '0'),
-                    ('$fav23_de', '$fav_key231_de', '$fav_key232_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '87', '0'),
-                    ('$fav24_de', '$fav_key241_de', '$fav_key242_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '85', '0'),
-                    ('$fav31_de', '$fav_key311_de', '$fav_key312_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '79', '0'),
-                    ('$fav32_de', '$fav_key321_de', '$fav_key322_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '78', '0'),
-                    ('$fav33_de', '$fav_key331_de', '$fav_key332_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '77', '0'),
-                    ('$fav34_de', '$fav_key341_de', '$fav_key342_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '76', '0'),
-                    ('$fav35_de', '$fav_key351_de', '$fav_key352_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '75', '0'),
-                    ('$fav36_de', '$fav_key361_de', '$fav_key362_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '74', '0'),
-                    ('$fav41_de', '$fav_key411_de', '$fav_key412_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '69', '0'),
-                    ('$fav42_de', '$fav_key421_de', '$fav_key422_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '68', '0'),
-                    ('$fav51_de', '$fav_key511_de', '$fav_key512_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '59', '0'),
-                    ('$fav52_de', '$fav_key521_de', '$fav_key522_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '58', '0'),
-                    ('$fav53_de', '$fav_key531_de', '$fav_key532_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '57', '0'),
-                    ('$fav54_de', '$fav_key541_de', '$fav_key542_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '56', '0'),
-                    ('$fav61_de', '$fav_key611_de', '$fav_key612_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '49', '0'),
-                    ('$fav62_de', '$fav_key621_de', '$fav_key622_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '48', '0'),
+                    ('$fav15_de', '$fav_key151_de', '$fav_key152_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '95', '1'),
                     ('$fav71_de', '$fav_key711_de', '$fav_key712_de', '', '$fav_ans71_de', '$r_date', LAST_INSERT_ID(), '100', '0')";
                 $results = mysqli_query($conn, $query2);
-                echo 'Voreingestellte Fragen wurden erstellt.</br></br>';
                 echo "<a href='login.php'>Login</a>";
                 exit();
 
@@ -491,34 +488,16 @@ if (isset($_POST['register'])) {
                 $query1 = "INSERT INTO users (username, email, password, r_date)
             VALUES ('$username', '$email', '" . md5($password) . "', '$r_date')";
                 $results = mysqli_query($conn, $query1);
-                echo 'User registered and';
+                echo 'User registered.</br></br>';
                 echo '<br>';
                 $query2 = "INSERT INTO data (question, keyw1, keyw2, keyw3, answer, c_date, uid, rating, fav)
             VALUES  ('$fav11_en', '$fav_key111_en', '$fav_key112_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '99', '1'),
                     ('$fav12_en', '$fav_key121_en', '$fav_key122_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '98', '1'),
                     ('$fav13_en', '$fav_key131_en', '$fav_key132_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '97', '1'),
                     ('$fav14_en', '$fav_key141_en', '$fav_key142_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '96', '1'),
-                    ('$fav21_en', '$fav_key211_en', '$fav_key212_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '89', '0'),
-                    ('$fav22_en', '$fav_key221_en', '$fav_key222_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '88', '0'),
-                    ('$fav23_en', '$fav_key231_en', '$fav_key232_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '87', '0'),
-                    ('$fav24_en', '$fav_key241_en', '$fav_key242_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '85', '0'),
-                    ('$fav31_en', '$fav_key311_en', '$fav_key312_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '79', '0'),
-                    ('$fav32_en', '$fav_key321_en', '$fav_key322_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '78', '0'),
-                    ('$fav33_en', '$fav_key331_en', '$fav_key332_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '77', '0'),
-                    ('$fav34_en', '$fav_key341_en', '$fav_key342_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '76', '0'),
-                    ('$fav35_en', '$fav_key351_en', '$fav_key352_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '75', '0'),
-                    ('$fav36_en', '$fav_key361_en', '$fav_key362_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '74', '0'),
-                    ('$fav41_en', '$fav_key411_en', '$fav_key412_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '69', '0'),
-                    ('$fav42_en', '$fav_key421_en', '$fav_key422_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '68', '0'),
-                    ('$fav51_en', '$fav_key511_en', '$fav_key512_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '59', '0'),
-                    ('$fav52_en', '$fav_key521_en', '$fav_key522_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '58', '0'),
-                    ('$fav53_en', '$fav_key531_en', '$fav_key532_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '57', '0'),
-                    ('$fav54_en', '$fav_key541_en', '$fav_key542_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '56', '0'),
-                    ('$fav61_en', '$fav_key611_en', '$fav_key612_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '49', '0'),
-                    ('$fav62_en', '$fav_key621_en', '$fav_key622_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '48', '0'),
+                    ('$fav15_en', '$fav_key151_en', '$fav_key152_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '95', '1'),
                     ('$fav71_en', '$fav_key711_en', '$fav_key712_en', '', '$fav_ans71_en', '$r_date', LAST_INSERT_ID(), '100', '0')";
                 $results = mysqli_query($conn, $query2);
-                echo 'pre-set questions created.</br></br>';
                 echo "<a href='login.php'>Login</a>";
                 exit();
 

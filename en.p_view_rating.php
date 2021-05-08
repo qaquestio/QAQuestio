@@ -24,9 +24,9 @@ require 'conn/conn.php';
 ?>
    <div id="p_table">
       <h3>Question list</br></br></h3>
-      <a href="en.p_view.php" id="nodecoration_black" style="font-weight: bold;">View count&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</a> 
+      <a href="en.p_view.php" id="nodecoration_black">View count&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</a> 
       <a href="en.p_view_last.php" id="nodecoration_black">Last viewed&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</a> 
-      <a href="en.p_view_rating.php" id="nodecoration_black">Rating</a></br>
+      <a href="en.p_view_rating.php" id="nodecoration_black" style="font-weight: bold;">Rating</a></br>
       </br>
       <table width="100%" border="1" style="border-collapse:collapse;">
          <thead>

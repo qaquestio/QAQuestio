@@ -11,9 +11,9 @@ include 'pt.head.php';
       <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="logout.php">Logout&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="pt.help.php" target="_blank" title="Help" id="nodecoration_black">( i )</a>
-            <a href="pt.view.php">Editar</a>
+            <a href="pt.help.php" target="_blank" title="Help" id="nodecoration_black">[  i  ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="logout.php">[  Logout  ]</a>
+            <a href="pt.p_view.php">[  Editar  ]</a>
             
          </div>
       </div>
@@ -31,7 +31,7 @@ include 'pt.head.php';
             <h1>QAQuestio</h1>
                   </br></br>
                   <form id="frm" action="pt.echo.php" method="get" accept-charset="utf-8">
-                     <input class="qaquest_input" name="question" placeholder="Digite sua pergunta..."/>
+                     <input class="qaquest_input" name="question" placeholder="Me pergunte..."/>
                   </form>
                </td>
             </tr>

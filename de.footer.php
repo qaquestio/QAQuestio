@@ -9,10 +9,8 @@
    </br>
          <h3 class="h3_footer">WAS IST QAQUESTIO?</h3></br>
          <p class="p_footer">
-            QAQuestio ist eine persönliche Suchseite, die mithilfe von Frage/Antwort-Mechanismen nachhaltige Lerneffekte und sich verstärkende Kreisläufe in Gang setzt. 
-            QAQuestio hilft dabei auf auf 
-            spielerische Art und Weise, Aufgaben und Herausforderungen des Alltags einfacher zu machen und das Wesentliche an diesen Aufgaben und Fragen zu erkennen. 
-            Weitere Informationen dazu gibt es auf unserer <a href="de.about.php" target="_blank" title="About" id="nodecoration">About</a> Seite.
+            QAQuestio ist eine persönliche Suchseite, die mithilfe von Frage/Antwort-Mechanismen Lerneffekt in Gang setzt. 
+            QAQuestio hilft Aufgaben und Herausforderungen des Alltags einfacher zu machen und das Wesentliche an diesen Aufgaben und Fragen zu erkennen.
             </br> </br>
             Nutzungsbedingungen: Die QAQuestio-App und das Codepaket sind unter der Open Source-Lizenz GNU General Public License v3 lizenziert. 
             Konzept und Inhalt sind unter CC BY-NC-SA 4.0 lizensiert.
@@ -20,7 +18,7 @@
             Informationen zu bekannten Problemen werden auf <a href="https://github.com/qaquestio/QAQuestio/issues" target="_blank" title="issues" id="nodecoration">Github </a>
             dokumentiert.
          </p>
-         <h3 class="h3_footer"><a href="de.about.php" target="_blank" title="About" id="nodecoration">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+         <h3 class="h3_footer">
          <a href="mailto:office@qaquest.io" target="_blank" title="office@qaquest.io" id="nodecoration">Kontakt  </a>&nbsp;&nbsp;&nbsp;&nbsp;
          <a href="de.privacy.php" target="_blank" title="Privacy" id="nodecoration">Datenschutz</a></h3>
          </br>

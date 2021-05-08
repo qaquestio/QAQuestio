@@ -9,7 +9,7 @@ include 'en.head.php';?>
     <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="index.php">Home</a>
+            <a href="index.php">[  Home  ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
          </div>
       </div>
    </nav>

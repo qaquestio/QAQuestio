@@ -9,15 +9,14 @@
    </br>
          <h3 class="h3_footer">WHAT IS QAQUESTIO?</h3></br>
          <p class="p_footer">
-            QAQuestio is a personal search page that uses Q&A mechanisms to trigger lasting learning effects and reinforcing loops. 
-            QAQuestio helps to make everyday tasks and challenges more simple in a playful way and to discover the essence of these matters.
-            For further information refer to our <a href="en.about.php" target="_blank" title="About" id="nodecoration">About</a> page.
+            QAQuestio is a personal search page that uses Q&A mechanisms to trigger learning effects. 
+            QAQuestio helps to make everyday tasks and challenges more simple and to discover the essence of these matters.
             </br> </br>
             Terms: The QAQuestio app and code package are licensed under Open Source License GNU General Public
             License v3. Concept and content are licensed under CC BY-NC-SA 4.0. No responsibility is taken for any damage caused due to the website, app or code.
             For known issues refer to our <a href="https://github.com/qaquestio/QAQuestio/issues" target="_blank" title="issues" id="nodecoration">Github </a>repository.
          </p>
-         <h3 class="h3_footer"><a href="en.about.php" target="_blank" title="About" id="nodecoration">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+         <h3 class="h3_footer">
          <a href="mailto:office@qaquest.io" target="_blank" title="office@qaquest.io" id="nodecoration">Contact  </a>&nbsp;&nbsp;&nbsp;&nbsp;
          <a href="en.privacy.php" target="_blank" title="Privacy" id="nodecoration">Privacy</a></h3>
          </br>

@@ -10,8 +10,8 @@ include 'de.head.php';
    <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="de.start.php">Home</a>
-            <a href="de.view.php">Übersicht</a>
+            <a href="de.p_view.php">[   Fragenliste   ]</a>
+            <a href="de.start.php">[   Frage mich...   ]</a>
          </div>
       </div>
    </nav>

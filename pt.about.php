@@ -27,15 +27,15 @@
          </tr>
          <tr class="noBorder_about">
             <td>
-            
-            Existem provavelmente milhões de livros, revistas, colunas e guias sobre a melhor maneira de lidar com as contradições que 
+            </br>
+            Existem provavelmente milhões de livros, revistas, colunas e guias sobre a melhor maneira de lidar com o absurdo da vida e as contradições que 
             constantemente se abrem entre a realidade e os nossos desejos e ideais.
             </br></br>
-            Podemos tentar encontrar atalhos para esses ideais e 
+            Podemos tentar encontrar receitas e atalhos para esses ideais e 
             podemos descobrir que eles não existem. Ou como o filósofo Konersmann descreve: "Nossa fantasia do paraíso é algo 
-            diferente do que um paraíso [...] deveria ter sido".
+            diferente do que um paraíso [...] deveria ter sido."
             </br></br>
-            Em algum momento, entretanto, queremos chegar a conclusões, alcançar marcos em nossa busca por respostas e encontrar alguma paz.
+            Em algum momento, entretanto, queremos chegar a conclusões, alcançar marcos em nossa busca por respostas e encontrar clareza e alguma paz.
             </br></br>
             E embora provavelmente haja tantas definições destes grandes termos "felicidade" e "sucesso" quanto vivem pessoas neste mundo, 
             elas têm uma coisa em comum. O que quer que 
@@ -47,18 +47,19 @@
             É uma ferramenta de auto-organização que utiliza mecanismos de perguntas-respostas para desencadear efeitos de aprendizagem duradouros e ciclos de reforço e que ajudá você a 
             chegar a essência de suas questões.
             </br></br>
-            QAQuestio ajuda você a aguçar sua consciência e senso de hábitos e pensamentos úteis, e encontrar um caminho através das rotinas e desafios diários. 
+            QAQuestio ajuda você a aguçar sua consciência para descobrir padrões de comportamento e hábitos e pensamentos úteis, e encontrar um caminho através das rotinas e desafios diários. 
             Ao fazer isso, QAQuestio transforma algo que as vezes até queremos evitar em algo lúdico.
             </br></br>
-            Isto cria espaços livres e e momentos de interiorização nos quais você pode agora ir em busca de sua própria idéia e definição de "felicidade" e "sucesso".
+            Assim você cria espaços livres e e momentos de interiorização nos quais você pode agora ir em busca de sua própria idéia e definição de "felicidade" e "sucesso".
             </br></br>
             QAQuestio lhe dá uma estrutura básica para encontrar palavras para seus sentimentos e desejos e assim entendê-los melhor. 
-            A ferramenta capacita você a desenvolver suas próprias ferramentas e hábitos úteis passo a passo. 
+            A ferramenta capacita você a desenvolver suas próprias ferramentas simples passo a passo. 
             </br></br>
-            QAQuestio ajuda você a manter as coisas mais simples e, desta forma, superar dependências, que talvez tenhamos aceitado em nossa busca 
+            QAQuestio ajuda você a filtrar o essencial, a manter as coisas mais simples e, desta forma, superar dependências, que talvez tenhamos aceitado em nossa busca 
             por um caminho de volta ao paraíso.
             </br></br>
-            QAQuestio torna-se assim sua bússola que sempre traz você de volta a seus hábitos e pensamentos úteis e guia você passo a passo na transformação de idéias vagas em convicções.
+            QAQuestio torna-se assim sua bússola que sempre traz você de volta a seus hábitos e pensamentos úteis e guia você passo a passo na transformação 
+            de idéias e sentimentos vagos em convicções.
             </br></br></br>
             Pronto? Tudo o que você precisa para começar é uma caneta, uma folha de papel e sua resposta à pergunta sobre o que você quer fazer hoje.
             </td>

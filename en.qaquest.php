@@ -7,7 +7,7 @@
    <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="login.php">Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="login.php">[   Login   ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
          </div>
       </div>
    </nav>
@@ -33,15 +33,16 @@
             </tr>
          </table>
       </li>
-      <li>
+     <li>
          <p>
-         </br> 
+                  </br></br>
                   <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"I want to learn from myself, want to be my student,</br>  
                    want to get to know myself, the secret of Siddhartha."</span><br>
                   <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">Hermann Hesse, Siddhartha</span>
-                  </br> </br>
+                  </br></br>
+                  <!-- </br>
                   <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Sit down a beat or two. Hold out your hands. Look."</br></span>
-                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Cloud Atlas</span>
+                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Cloud Atlas</span> -->
             </p>
       </li>
       <li>
@@ -52,7 +53,7 @@
       </li>
       <li>
          <p></br></br>
-            What do you want to do today? Is there something you are looking forward to?</br>
+            What do you want to do today? </br>
          </br>
          *</p>
       </li>

@@ -18,10 +18,8 @@ require 'conn/conn.php';
 // Retrieve the form data
 $question = $_GET['question'];
 $uid = $_SESSION['uid'];
-
 //Query and output
-$sql = "SELECT answer, id FROM data
-WHERE uid='$uid'
+$sql = "SELECT answer, id, v_count FROM data WHERE uid='$uid'
 AND '$question' LIKE CONCAT('%', keyw1, '%')
 AND '$question' LIKE CONCAT('%', keyw2, '%')
 AND '$question' LIKE CONCAT('%', keyw3, '%')";
@@ -34,8 +32,9 @@ if ($result->num_rows == 1) {
    <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="pt.start.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="pt.edit.php?id=<?php echo $row["id"]; ?>">Editar</a>
+            <a href="pt.p_view.php">[   Minhas perguntas   ]</a>
+            <a href="pt.edit.php?id=<?php echo $row["id"]; ?>">[   Editar   ]</a>
+            <a href="pt.start.php">[   Me pergunte...   ]</a>
          </div>
       </div>
       </nav>
@@ -43,16 +42,35 @@ if ($result->num_rows == 1) {
   <table class="echo_table">
     <tr>
       <td class="echo">
-	<?php echo nl2br($row["answer"]) . "<br>";
-    }
+	<?php
+         
+         $timestamp = time();
+
+         $v_count = $row["v_count"]+1;
+         $id = $row["id"];
+         $update = "UPDATE data SET v_count='" . $v_count . "', lastdate='" . $timestamp . "' WHERE id='" . $id . "'";
+         mysqli_query($conn, $update) or die(mysqli_error());
+
+         $result_sum = mysqli_query($conn, 'SELECT SUM(v_count) AS value_sum FROM data'); 
+         $column_sum = mysqli_fetch_assoc($result_sum); 
+         $sum = $column_sum['value_sum'];
+
+         $update_percent = "UPDATE data SET percent = v_count * 100 / $sum ";
+         mysqli_query($conn, $update_percent) or die(mysqli_error());
+
+         echo nl2br($row["answer"]) . "</br>";
+      
+    } 
 } else { ?>
-
-
+   </td>
+    </tr>
   <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="pt.start.php">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="pt.p_view.php">Lista</a>
+           
+            <a href="pt.p_view.php">[   Minhas perguntas   ]</a>
+            <a href="pt.start.php">[   Me pergunte...   ]</a>
+
          </div>
       </div>
       </nav>
@@ -60,11 +78,14 @@ if ($result->num_rows == 1) {
   <table class="echo_table">
     <tr>
       <td class="echo_bold">
-  <?php echo "Nenhuma ou múltiplas respostas encontradas. </br>
+   <?php echo "Nenhuma ou múltiplas respostas encontradas. </br>
                Revise seus itens (veja &quotLista&quot).";
 }
+
 $conn->close();
 ?>
+                  
+
 </td>
 
 </tr>

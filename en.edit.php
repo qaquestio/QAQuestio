@@ -10,9 +10,9 @@ include 'en.head.php';
 <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="en.start.php">Home</a>
-            <a href="en.help.php" target="_blank" title="Hilfe" id="nodecoration_black">( i )</a>
-            <a href="en.view.php">View</a>
+            <a href="en.help.php" target="_blank" title="Help" id="nodecoration_black">[  i  ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="en.p_view.php">[   My questions  ]</a>
+            <a href="en.start.php">[  Ask me...  ]</a>
          </div>
       </div>
    </nav>
@@ -40,10 +40,9 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
     $answer = $_REQUEST['answer'];
     $rating = $_REQUEST['rating'];
     $c_date = date("Y-m-d H:i:s");
-    $fav = $_REQUEST['fav'];
     $update = "UPDATE data SET question='" . $question . "',
                keyw1='" . $keyw1 . "', keyw2='" . $keyw2 . "', keyw3='" . $keyw3 . "',
-               answer='" . $answer . "', rating='" . $rating . "', c_date='" . $c_date . "', fav='" . $fav . "' WHERE id='" . $id . "'";
+               answer='" . $answer . "', rating='" . $rating . "', c_date='" . $c_date . "' WHERE id='" . $id . "'";
     mysqli_query($conn, $update) or die(mysqli_error());
     ?>
    <table class="echo_table">
@@ -84,13 +83,9 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
             <p><input class="edit_input" type="text" name="keyw3" placeholder="Enter Keyword 3 or leave blank"
                value="<?php echo $row['keyw3']; ?>" /></p>
             </br>
-            <label style="font-weight: bold;">Rating (1 - 100)</label><br/>
-            <p><input class="edit_input" type="number" name="rating" placeholder="Enter your rating"
+            <label style="font-weight: bold;">Relevance (1 - 100)</label><br/>
+            <p><input class="edit_input" type="number" name="rating" placeholder="Enter relevance"
                required value="<?php echo $row['rating']; ?>" /></p>
-            </br>
-            <label style="font-weight: bold;">Favourite (1=Yes, 0=No)</label><br/>
-            <p><input class="edit_input" type="number" name="fav" placeholder="Favourite (Yes=1, No=0)g"
-               required value="<?php echo $row['fav']; ?>" /></p>
             </br></br>
             <label style="font-weight: bold;">Your answer</label><br/>
             <p style="font-size: 18px;"><textarea name="answer" id="ckeditor" rows="10" cols="100" placeholder="Put your answer here..." />

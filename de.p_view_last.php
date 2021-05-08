@@ -1,9 +1,9 @@
 <?php
 include 'auth.php';
-include 'en.head.php';
+include 'de.head.php';
 ?>
 
-<title>QAQuestio | Question list</title>
+<title>QAQuestio | Fragenliste</title>
 </head>
 
 <body>
@@ -11,9 +11,9 @@ include 'en.head.php';
 <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="#" onClick="window.print();return false">[   Print   ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="en.new.php">[   New   ]</a>
-            <a href="en.start.php">[   Ask me...   ]</a>
+            <a href="#" onClick="window.print();return false">[   Drucken   ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="de.new.php">[   Neu   ]</a>
+            <a href="de.start.php">[   Frage mich...   ]</a>
          </div>
       </div>
    </nav>
@@ -23,16 +23,16 @@ include 'en.head.php';
 require 'conn/conn.php';
 ?>
    <div id="p_table">
-      <h3>Question list</br></br></h3>
-      <a href="en.p_view.php" id="nodecoration_black" style="font-weight: bold;">View count&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</a> 
-      <a href="en.p_view_last.php" id="nodecoration_black">Last viewed&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</a> 
-      <a href="en.p_view_rating.php" id="nodecoration_black">Rating</a></br>
+      <h3>Fragenliste</br></br></h3>
+      <a href="de.p_view.php" id="nodecoration_black">Anzahl der Aufrufe&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</a> 
+      <a href="de.p_view_last.php" id="nodecoration_black" style="font-weight: bold;">Letzter Aufruf&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</a> 
+      <a href="de.p_view_rating.php" id="nodecoration_black">Rating</a></br>
       </br>
       <table width="100%" border="1" style="border-collapse:collapse;">
          <thead>
             <tr align="left" style="background-color: rgb(172, 172, 172); padding: 5px;">
                <th><strong>Nr.</strong></th>
-               <th><strong>Question</strong></th>
+               <th><strong>Frage</strong></th>
                <th><strong>Keyw1</strong></th>
                <th><strong>Keyw2</strong></th>
                <th><strong>%</strong></th>
@@ -44,7 +44,7 @@ require 'conn/conn.php';
             <?php
 $uid = $_SESSION['uid'];
 $count = 1;
-$sel_query = "SELECT * FROM data WHERE uid='$uid' ORDER BY percent desc, keyw1 asc, keyw2 asc;";
+$sel_query = "SELECT * FROM data WHERE uid='$uid' ORDER BY lastdate desc, keyw1 asc, keyw2 asc;";
 $result = mysqli_query($conn, $sel_query);
 while ($row = mysqli_fetch_assoc($result)) {?>
             <tr valign="top" align="left" style="">
@@ -54,10 +54,10 @@ while ($row = mysqli_fetch_assoc($result)) {?>
                <td width="10%"><?php echo $row["keyw2"]; ?></td>
                <td width="2%"><?php echo $row["percent"]; ?></td>
                <td width="5%">
-                  <a href="en.edit.php?id=<?php echo $row["id"]; ?>">Edit</a>
+                  <a href="de.edit.php?id=<?php echo $row["id"]; ?>">Bearbeiten</a>
                </td>
                <td width="5%">
-                  <a href="en.delete.php?id=<?php echo $row["id"]; ?>"onclick="return  confirm('Delete entry?')">Delete</a>
+                  <a href="de.delete.php?id=<?php echo $row["id"]; ?>"onclick="return  confirm('Eintrag löschen?')">Löschen</a>
                </td>
             </tr>
             <?php $count++;}?>

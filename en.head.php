@@ -9,7 +9,7 @@
 <meta http-equiv="Expires" content="0"> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<meta name="description" content="QAQuestio. A simple Question & Answer tool.">
+<meta name="description" content="QAQuestio. A simple question & answer tool that helps to create clarity.">
 <meta name="content-language" content="en">
 <meta name="robots" content="index"/>
 
