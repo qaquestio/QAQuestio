@@ -34,7 +34,7 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
     $uid = $_SESSION['uid'];
     $rating = $_REQUEST['rating'];
     $sql = "INSERT INTO data (question, keyw1, keyw2, keyw3, answer, c_date, uid, rating)
-               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
        echo "SQL error";
