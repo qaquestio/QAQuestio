@@ -92,7 +92,15 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
                <?php echo $row['answer']; ?></textarea>
             </p>
             </br>
-            <p><input name="submit" type="submit" value="Update" /></p>
+            <table>
+                  <tr>
+                     <td><input name="submit" type="submit" value="Update" />
+                     </td>
+                     <td style="text-align: right; width: 10%;"><a href="de.delete.php?id=<?php echo $row["id"]; ?>
+                        "onclick="return  confirm('Delete entry?')" id="nodecoration_black" id="nodecoration_black" style="text-align: right;">[&nbsp;&nbsp;Delete&nbsp;&nbsp;]</a>
+                     </td>
+                  </tr>
+               </table>
          </form>
          <div style="height: 100px;"></div>
          <?php

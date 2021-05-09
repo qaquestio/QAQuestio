@@ -99,7 +99,7 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
                      <td><input name="submit" type="submit" value="Aktualisieren" />
                      </td>
                      <td style="text-align: right; width: 10%;"><a href="de.delete.php?id=<?php echo $row["id"]; ?>
-                        "onclick="return  confirm('Eintrag löschen?')" id="nodecoration_black" id="nodecoration_black" style="text-align: right;">Löschen</a>
+                        "onclick="return  confirm('Eintrag löschen?')" id="nodecoration_black" id="nodecoration_black" style="text-align: right;">[&nbsp;&nbsp;Löschen&nbsp;&nbsp;]</a>
                      </td>
                   </tr>
                </table>
