@@ -12,8 +12,8 @@ include 'pt.head.php';
 <div class="topnav">
          <div class="topnav-right">
             <a href="pt.help.php" target="_blank" title="Help" id="nodecoration_black">[  i  ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="pt.p_view.php">[   Minhas perguntas   ]</a>
-            <a href="pt.start.php">[   Me pergunte...   ]</a>
+            <a href="pt.p_view.php">[   Lista   ]</a>
+            <a href="pt.start.php">[   Home   ]</a>
          </div>
       </div>
    </nav>
@@ -32,14 +32,14 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
     $answer = $_REQUEST['answer'];
     $c_date = date("Y-m-d H:i:s");
     $uid = $_SESSION['uid'];
-    $rating = $_REQUEST['rating'];
-    $sql = "INSERT INTO data (question, keyw1, keyw2, keyw3, answer, c_date, uid, rating)
+    $fav = $_REQUEST['fav'];
+    $sql = "INSERT INTO data (question, keyw1, keyw2, keyw3, answer, c_date, uid, fav)
                VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
        echo "SQL error";
     } else {
-      mysqli_stmt_bind_param($stmt, "ssssssss", $question, $keyw1, $keyw2, $keyw3, $answer, $c_date, $uid, $rating);
+      mysqli_stmt_bind_param($stmt, "ssssssss", $question, $keyw1, $keyw2, $keyw3, $answer, $c_date, $uid, $fav);
       mysqli_stmt_execute($stmt);
       $status = "</br>Novo item foi criado. </br></br>";
       echo '<p class="echo_bold">' . $status . '</p>';
@@ -68,8 +68,11 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
                <br/>
                <input class="edit_input" type="text" name="keyw3" placeholder="Digite Keyword 3 ou deixa em branco" /><br/>
                <br/>
-               <label style="font-weight: bold;">Relevância (1-100)</label><br/>
-               <input class="edit_input" type="text" name="rating" value="50" placeholder="Digite a relevância" required /><br/>
+               <label style="font-weight: bold;">Favorita</label><br/>
+               <select name="fav" id="fav">
+                  <option value = "0">Não</option>
+                  <option value = "1">Sim</option>
+               </select>
                </br>
                </br>
                <p style="font-size: 18px;"><textarea type="text" name="answer" id="ckeditor" placeholder="Digite sua resposta aqui...">

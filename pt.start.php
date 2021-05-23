@@ -13,7 +13,8 @@ include 'pt.head.php';
          <div class="topnav-right">
             <a href="pt.help.php" target="_blank" title="Help" id="nodecoration_black">[  i  ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
             <a href="logout.php">[  Logout  ]</a>
-            <a href="pt.p_view.php">[  Editar  ]</a>
+            <a href="pt.p_view.php">[  Lista  ]</a>
+            <a href="pt.start_fav.php">[  Fav   ]</a>
             
          </div>
       </div>
@@ -31,7 +32,7 @@ include 'pt.head.php';
             <h1>QAQuestio</h1>
                   </br></br>
                   <form id="frm" action="pt.echo.php" method="get" accept-charset="utf-8">
-                     <input class="qaquest_input" name="question" placeholder="Me pergunte..."/>
+                     <input class="qaquest_input" name="question" placeholder="..."/>
                   </form>
                </td>
             </tr>

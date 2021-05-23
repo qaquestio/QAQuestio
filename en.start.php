@@ -13,7 +13,8 @@ include 'en.head.php';
          <div class="topnav-right">
             <a href="en.help.php" target="_blank" title="Help" id="nodecoration_black">[  i  ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
             <a href="logout.php">[  Logout  ]</a>
-            <a href="en.p_view.php">[  Edit  ]</a>
+            <a href="en.p_view.php">[  List  ]</a>
+            <a href="en.start_fav.php">[  Fav   ]</a>
             
          </div>
       </div>
@@ -28,10 +29,10 @@ include 'en.head.php';
             </tr>
             <tr style="vertical-align: top;">
             <td>
-            <h1>QAQuestio</h1>
+            <h1>QAQ</h1>
                   </br></br>
                   <form id="frm" action="en.echo.php" method="get" accept-charset="utf-8">
-                     <input class="qaquest_input" name="question" placeholder="Ask me..."/>
+                     <input class="qaquest_input" name="question" placeholder="..."/>
                   </form>
                </td>
             </tr>

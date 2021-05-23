@@ -13,7 +13,8 @@ include 'en.head.php';
          <div class="topnav-right">
             <a href="#" onClick="window.print();return false">[   Print   ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
             <a href="en.new.php">[   New   ]</a>
-            <a href="en.start.php">[   Ask me...   ]</a>
+            <a href="en.start_fav.php">[  Fav   ]</a> 
+            <a href="en.start.php">[   Home   ]</a>
          </div>
       </div>
    </nav>
@@ -25,9 +26,8 @@ require 'conn/conn.php';
    <div id="p_table">
       <h3>Question list</br></br></h3>
       <a href="en.p_view.php" id="nodecoration_black">View count&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</a> 
-      <a href="en.p_view_last.php" id="nodecoration_black" style="font-weight: bold;">Last viewed&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</a> 
-      <a href="en.p_view_rating.php" id="nodecoration_black">Rating</a></br>
-      </br>
+      <a href="en.p_view_last.php" id="nodecoration_black" style="font-weight: bold;">Last viewed&nbsp;&nbsp;&nbsp;&nbsp;</a> 
+      </br></br>
       <table width="100%" border="1" style="border-collapse:collapse;">
          <thead>
             <tr align="left" style="background-color: rgb(172, 172, 172); padding: 5px;">

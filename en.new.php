@@ -12,8 +12,8 @@ include 'en.head.php';
 <div class="topnav">
          <div class="topnav-right">
             <a href="en.help.php" target="_blank" title="Help" id="nodecoration_black">[  i  ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="en.p_view.php">[  My questions   ]</a>
-            <a href="en.start.php">[   Ask me...   ]</a>
+            <a href="en.p_view.php">[  List   ]</a>
+            <a href="en.start.php">[   Home   ]</a>
          </div>
       </div>
    </nav>
@@ -32,14 +32,14 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
     $answer = $_REQUEST['answer'];
     $c_date = date("Y-m-d H:i:s");
     $uid = $_SESSION['uid'];
-    $rating = $_REQUEST['rating'];
-    $sql = "INSERT INTO data (question, keyw1, keyw2, keyw3, answer, c_date, uid, rating)
+    $fav = $_REQUEST['fav'];
+    $sql = "INSERT INTO data (question, keyw1, keyw2, keyw3, answer, c_date, uid, fav)
                VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
        echo "SQL error";
     } else {
-      mysqli_stmt_bind_param($stmt, "ssssssss", $question, $keyw1, $keyw2, $keyw3, $answer, $c_date, $uid, $rating);
+      mysqli_stmt_bind_param($stmt, "ssssssss", $question, $keyw1, $keyw2, $keyw3, $answer, $c_date, $uid, $fav);
       mysqli_stmt_execute($stmt);
       $status = "</br>Record created successfully. </br></br>";
       echo '<p class="echo_bold">' . $status . '</p>';
@@ -56,7 +56,6 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
          </td>
       </tr>
       <tr>
-      <tr>
          <td>
             <form action="" method="post">
                <input type="hidden" name="new" value="1" />
@@ -69,8 +68,11 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
                <br/>
                <input class="edit_input" type="text" name="keyw3" placeholder="Enter Keyword 3 or leave blank" /><br/>
                <br/>
-               <label style="font-weight: bold;">Relevance (1-100)</label><br/>
-               <input class="edit_input" type="text" name="rating" value="50" placeholder="Enter relevance" required /><br/>
+               <label style="font-weight: bold;">Favourite</label><br/>
+               <select name="fav" id="fav">
+                  <option value = "0">No</option>
+                  <option value = "1">Yes</option>
+               </select>
                </br>
                </br>
                <p style="font-size: 18px;"><textarea type="text" name="answer" id="ckeditor" placeholder="Put your answer here...">

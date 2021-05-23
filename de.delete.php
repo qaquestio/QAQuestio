@@ -5,13 +5,12 @@ include 'de.head.php';
 
 <title>Delete Record</title>
 </head>
-
 <body>
    <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="de.p_view.php">[   Fragenliste   ]</a>
-            <a href="de.start.php">[   Frage mich...   ]</a>
+            <a href="de.p_view.php">[   Liste   ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="de.start.php">[   Home   ]</a>
          </div>
       </div>
    </nav>

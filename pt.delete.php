@@ -9,8 +9,8 @@ include 'pt.head.php';
 <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="pt.start.php">Home</a>
-            <a href="pt.view.php">Editar</a>
+            <a href="pt.p_view.php">[   Lista   ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="pt.start.php">[   Home   ]</a>
          </div>
       </div>
    </nav>
@@ -20,16 +20,16 @@ include 'pt.head.php';
       <tr>
          <td class="echo_bold">
             <?php
-require 'conn/conn.php';
-$id = $_REQUEST['id'];
-$query = "DELETE FROM data WHERE id=$id";
-if (mysqli_query($conn, $query)) {
-    $status = "Item foi deletado.</br></br>";
-    echo '<p>' . $status . '</p>';
-} else {
-    echo "Error deleting record: " . mysqli_error($conn);
-}
-?>
+               require 'conn/conn.php';
+               $id = $_REQUEST['id'];
+               $query = "DELETE FROM data WHERE id=$id";
+               if (mysqli_query($conn, $query)) {
+                  $status = "Item foi deletado.</br></br>";
+                  echo '<p>' . $status . '</p>';
+               } else {
+                  echo "Error deleting record: " . mysqli_error($conn);
+               }
+               ?>
          </td>
       </tr>
    </table>

@@ -11,8 +11,8 @@ include 'en.head.php';
       <div class="topnav">
          <div class="topnav-right">
             <a href="en.help.php" target="_blank" title="Help" id="nodecoration_black">[  i  ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="en.p_view.php">[   My questions  ]</a>
-            <a href="en.start.php">[  Ask me...  ]</a>
+            <a href="en.p_view.php">[   List  ]</a>
+            <a href="en.start.php">[  Home  ]</a>
          </div>
       </div>
    </nav>
@@ -38,11 +38,11 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
     $keyw2 = $_REQUEST['keyw2'];
     $keyw3 = $_REQUEST['keyw3'];
     $answer = $_REQUEST['answer'];
-    $rating = $_REQUEST['rating'];
     $c_date = date("Y-m-d H:i:s");
+    $fav = $_REQUEST['fav'];
     $update = "UPDATE data SET question='" . $question . "',
                keyw1='" . $keyw1 . "', keyw2='" . $keyw2 . "', keyw3='" . $keyw3 . "',
-               answer='" . $answer . "', rating='" . $rating . "', c_date='" . $c_date . "' WHERE id='" . $id . "'";
+               answer='" . $answer . "', c_date='" . $c_date . "', fav='" . $fav . "' WHERE id='" . $id . "'";
     mysqli_query($conn, $update) or die(mysqli_error());
     ?>
    <table class="echo_table">
@@ -81,12 +81,12 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
                required value="<?php echo $row['keyw2']; ?>" /></p>
             </br>
             <p><input class="edit_input" type="text" name="keyw3" placeholder="Enter Keyword 3 or leave blank"
-               value="<?php echo $row['keyw3']; ?>" /></p>
+            value="<?php echo $row['keyw3']; ?>" /></p>
             </br>
-            <label style="font-weight: bold;">Relevance (1 - 100)</label><br/>
-            <p><input class="edit_input" type="number" name="rating" placeholder="Enter relevance"
-               required value="<?php echo $row['rating']; ?>" /></p>
-            </br></br>
+               <label style="font-weight: bold;">Favourite (1=Yes, 0=No)</label><br />
+               <p><input class="edit_input" type="number" name="fav" placeholder="Favorit (Yes=1, No=0)" required
+                     value="<?php echo $row['fav']; ?>" /></p>   
+                     </br></br>
             <label style="font-weight: bold;">Your answer</label><br/>
             <p style="font-size: 18px;"><textarea name="answer" id="ckeditor" rows="10" cols="100" placeholder="Put your answer here..." />
                <?php echo $row['answer']; ?></textarea>
@@ -97,7 +97,7 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
                      <td><input name="submit" type="submit" value="Update" />
                      </td>
                      <td style="text-align: right; width: 10%;"><a href="de.delete.php?id=<?php echo $row["id"]; ?>
-                        "onclick="return  confirm('Delete entry?')" id="nodecoration_black" id="nodecoration_black" style="text-align: right;">[&nbsp;&nbsp;Delete&nbsp;&nbsp;]</a>
+                        "onclick="return  confirm('Delete entry?')" id="nodecoration_black" style="text-align: right;">[&nbsp;&nbsp;Delete&nbsp;&nbsp;]</a>
                      </td>
                   </tr>
                </table>

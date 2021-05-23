@@ -7,8 +7,8 @@
    <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="de.privacy.php" target="_blank">Datenschutz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="de.about.php" target="_blank">About</a>
+            <a href="de.privacy.php" target="_blank">[   Datenschutz   ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="de.about.php" target="_blank">[   About   ]</a>
          </div>
       </div>
    </nav>

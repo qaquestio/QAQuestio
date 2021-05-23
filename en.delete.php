@@ -6,11 +6,11 @@ include 'en.head.php';
 <title>Delete Record</title>
 </head>
 <body>
-<nav class="navbar">
+ <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="en.start.php">Home</a>
-            <a href="en.view.php">View</a>
+            <a href="en.p_view.php">[   List   ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="en.start.php">[   Home   ]</a>
          </div>
       </div>
    </nav>
@@ -20,16 +20,16 @@ include 'en.head.php';
       <tr>
          <td class="echo_bold">
             <?php
-require 'conn/conn.php';
-$id = $_REQUEST['id'];
-$query = "DELETE FROM data WHERE id=$id";
-if (mysqli_query($conn, $query)) {
-    $status = "Record deleted.</br></br>";
-    echo '<p>' . $status . '</p>';
-} else {
-    echo "Error deleting record: " . mysqli_error($conn);
-}
-?>
+            require 'conn/conn.php';
+            $id = $_REQUEST['id'];
+            $query = "DELETE FROM data WHERE id=$id";
+            if (mysqli_query($conn, $query)) {
+               $status = "Record deleted.</br></br>";
+               echo '<p>' . $status . '</p>';
+            } else {
+               echo "Error deleting record: " . mysqli_error($conn);
+            }
+            ?>
          </td>
       </tr>
    </table>

@@ -104,22 +104,40 @@ if (isset($_POST['register'])) {
         
         
         // 15_de
-        $fav15_de = "Um Fragen und Antworten zu erstellen, zu bearbeiten oder zu entfernen gehe auf &quot;Bearbeiten&quot;.";
+        $fav15_de = "Um Fragen und Antworten zu erstellen, zu bearbeiten oder zu entfernen gehe auf &quot;Liste&quot;.";
         $fav_key151_de = "Fragen";
         $fav_key152_de = "erstellen";
 
         // en
-        $fav15_en = "To create, edit or remove questions and answers got to &quot;Edit&quot;.";
+        $fav15_en = "To create, edit or remove questions and answers got to &quot;List&quot;.";
         $fav_key151_en = "create";
         $fav_key152_en = "questions";
 
         // pt
-        $fav15_pt = "Para criar, editar ou remover perguntas e respostas clique em &quot;Editar&quot;.";
+        $fav15_pt = "Para criar, editar ou remover perguntas e respostas clique em &quot;Lista&quot;.";
         $fav_key151_pt = "criar";
         $fav_key152_pt = "perguntas";
 
-        /* // WISHES / STEPS / HELP / OBSTACLES
+        // WISHES / STEPS / HELP / OBSTACLES
 
+        // 20_de
+        $fav20_de = "Wonach sehnst Du Dich?";
+        $fav_key201_de = "sehnst";
+        $fav_key202_de = "du";
+
+        // en
+        $fav20_en = "What are you longing for?";
+        $fav_key201_en = "what";
+        $fav_key202_en = "longing";
+
+        // pt
+        $fav21_pt = "O que você deseja?";
+        $fav_key211_pt = "o que";
+        $fav_key212_pt = "deseja";
+
+
+        /*
+      
         // 21_de
         $fav21_de = "Was wünsche ich mir? Was hoffe ich? Worauf möchte ich hinarbeiten?";
         $fav_key211_de = "wünsche";
@@ -135,6 +153,8 @@ if (isset($_POST['register'])) {
         $fav_key211_pt = "o que";
         $fav_key212_pt = "desejo";
 
+        
+
         // 22_de
         $fav22_de = "Was genau muss ich dafür tun?";
         $fav_key221_de = "dafür";
@@ -148,7 +168,7 @@ if (isset($_POST['register'])) {
         // pt
         $fav22_pt = "O que exatamente eu preciso fazer para isso?";
         $fav_key221_pt = "fazer";
-        $fav_key222_pt = "para isso";
+        $fav_key222_pt = "para isso";    
 
         // 23_de
         $fav23_de = "Wer oder was könnte mir dabei helfen?";
@@ -461,6 +481,7 @@ if (isset($_POST['register'])) {
                     ('$fav13_pt', '$fav_key131_pt', '$fav_key132_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '97', '1'),
                     ('$fav14_pt', '$fav_key141_pt', '$fav_key142_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '96', '1'),
                     ('$fav15_pt', '$fav_key151_pt', '$fav_key152_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '95', '1'),
+                    ('$fav20_pt', '$fav_key201_pt', '$fav_key202_pt', '', '$fav_ans01_pt', '$r_date', LAST_INSERT_ID(), '94', '1'),
                     ('$fav71_pt', '$fav_key711_pt', '$fav_key712_pt', '', '$fav_ans71_pt', '$r_date', LAST_INSERT_ID(), '100', '0')";
                 $results = mysqli_query($conn, $query2);
                 exit();
@@ -478,6 +499,7 @@ if (isset($_POST['register'])) {
                     ('$fav13_de', '$fav_key131_de', '$fav_key132_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '97', '1'),
                     ('$fav14_de', '$fav_key141_de', '$fav_key142_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '96', '1'),
                     ('$fav15_de', '$fav_key151_de', '$fav_key152_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '95', '1'),
+                    ('$fav20_de', '$fav_key201_de', '$fav_key202_de', '', '$fav_ans01_de', '$r_date', LAST_INSERT_ID(), '94', '1'),
                     ('$fav71_de', '$fav_key711_de', '$fav_key712_de', '', '$fav_ans71_de', '$r_date', LAST_INSERT_ID(), '100', '0')";
                 $results = mysqli_query($conn, $query2);
                 echo "<a href='login.php'>Login</a>";
@@ -496,6 +518,7 @@ if (isset($_POST['register'])) {
                     ('$fav13_en', '$fav_key131_en', '$fav_key132_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '97', '1'),
                     ('$fav14_en', '$fav_key141_en', '$fav_key142_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '96', '1'),
                     ('$fav15_en', '$fav_key151_en', '$fav_key152_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '95', '1'),
+                    ('$fav20_en', '$fav_key201_en', '$fav_key202_en', '', '$fav_ans01_en', '$r_date', LAST_INSERT_ID(), '94', '1'),
                     ('$fav71_en', '$fav_key711_en', '$fav_key712_en', '', '$fav_ans71_en', '$r_date', LAST_INSERT_ID(), '100', '0')";
                 $results = mysqli_query($conn, $query2);
                 echo "<a href='login.php'>Login</a>";

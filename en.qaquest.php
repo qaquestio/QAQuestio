@@ -20,7 +20,7 @@
             </tr>
             <tr style="vertical-align: top;">
                <td>
-               <h1>QAQuestio</h1>
+               <h1>QAQ</h1>
                </br></br></br>
                  
                </td>
@@ -33,7 +33,7 @@
             </tr>
          </table>
       </li>
-     <li>
+     <!-- <li>
          <p>
                   </br></br>
                   <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"I want to learn from myself, want to be my student,</br>  
@@ -42,12 +42,12 @@
                   </br></br>
                   <!-- </br>
                   <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Sit down a beat or two. Hold out your hands. Look."</br></span>
-                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Cloud Atlas</span> -->
+                  <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Cloud Atlas</span>
             </p>
-      </li>
+      </li> -->
       <li>
          <p></br></br>
-         Be mindful.</br>
+         Take a moment.</br>
          </br>
          *</p>
       </li>
@@ -57,15 +57,15 @@
          </br>
          *</p>
       </li>
-      
-      <?php include 'en.footer.php';?>
-
       <li>
          <p></br></br>
-          <a href="register.php" target="_blank" title="Register" id="nodecoration_black">Want to know more?</a></br>
+            What would you like to be asked?</br>
          </br>
          *</p>
       </li>
+      
+      <?php include 'en.footer.php';?>
+
 
       <li>
 

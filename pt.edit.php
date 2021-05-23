@@ -11,8 +11,8 @@ include 'pt.head.php';
       <div class="topnav">
          <div class="topnav-right">
             <a href="pt.help.php" target="_blank" title="Ajuda" id="nodecoration_black">[  i  ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="pt.p_view.php">[   Minhas perguntas  ]</a>
-            <a href="pt.start.php">[  Me pergunte...  ]</a>
+            <a href="pt.p_view.php">[   Lista  ]</a>
+            <a href="pt.start.php">[  Home  ]</a>
          </div>
       </div>
    </nav>
@@ -38,11 +38,11 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
     $keyw2 = $_REQUEST['keyw2'];
     $keyw3 = $_REQUEST['keyw3'];
     $answer = $_REQUEST['answer'];
-    $rating = $_REQUEST['rating'];
     $c_date = date("Y-m-d H:i:s");
+    $fav = $_REQUEST['fav'];
     $update = "UPDATE data SET question='" . $question . "',
                keyw1='" . $keyw1 . "', keyw2='" . $keyw2 . "', keyw3='" . $keyw3 . "',
-               answer='" . $answer . "', rating='" . $rating . "', c_date='" . $c_date . "' WHERE id='" . $id . "'";
+               answer='" . $answer . "', c_date='" . $c_date . "', fav='" . $fav . "' WHERE id='" . $id . "'";
     mysqli_query($conn, $update) or die(mysqli_error());
     ?>
 
@@ -84,11 +84,11 @@ if (isset($_POST['new']) && $_POST['new'] == 1) {
             </br>
             <p><input class="edit_input" type="text" name="keyw3" placeholder="Digite Keyword 3 ou deixa em branco"
                value="<?php echo $row['keyw3']; ?>" /></p>
-            </br>
-            <label style="font-weight: bold;">Relevância (1 - 100)</label><br/>
-            <p><input class="edit_input" type="number" name="rating" placeholder="Digite a relevância"
-               required value="<?php echo $row['rating']; ?>" /></p>
-            </br></br>
+               </br>
+               <label style="font-weight: bold;">Favorita (1=Sim, 0=Não)</label><br />
+               <p><input class="edit_input" type="number" name="fav" placeholder="Favorita (Sim=1, Não=0)" required
+                     value="<?php echo $row['fav']; ?>" /></p>
+               </br></br>
             <label style="font-weight: bold;">Sua resposta</label><br/>
             <p style="font-size: 18px;"><textarea name="answer" id="ckeditor" rows="10" cols="100" placeholder="Digite sua resposta aqui..." />
                <?php echo $row['answer']; ?></textarea>

@@ -9,7 +9,7 @@
    </br>
          <h3 class="h3_footer">WHAT IS QAQUESTIO?</h3></br>
          <p class="p_footer">
-            QAQuestio is a personal search page that uses Q&A mechanisms to trigger learning effects. 
+            QAQuestio is a personal search engine that comes to life by self-created Q&A-pairs. 
             QAQuestio helps to make everyday tasks and challenges more simple and to discover the essence of these matters.
             </br> </br>
             Terms: The QAQuestio app and code package are licensed under Open Source License GNU General Public

@@ -13,12 +13,12 @@ include 'de.head.php';
          <div class="topnav-right">
             <a href="de.help.php" target="_blank" title="Help" id="nodecoration_black">[  i  ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
             <a href="logout.php">[   Logout   ]</a>
-            <a href="de.p_view.php">[   Bearbeiten   ]</a>
+            <a href="de.p_view.php">[   Liste   ]</a>
+            <a href="de.start_fav.php">[  Fav   ]</a> 
             
          </div>
       </div>
       </nav>
-
       <ul class="scroller">
       <li id="home">
          <table class="qaquest_table">
@@ -31,7 +31,7 @@ include 'de.head.php';
             <h1>QAQ</h1>
                   </br></br>
                   <form id="frm" action="de.echo.php" method="get" accept-charset="utf-8">
-                     <input class="qaquest_input" name="question" placeholder="Frage mich..."/>
+                     <input class="qaquest_input" name="question" placeholder="..."/>
                   </form>
                </td>
             </tr>

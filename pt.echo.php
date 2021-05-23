@@ -32,9 +32,8 @@ if ($result->num_rows == 1) {
    <nav class="navbar">
       <div class="topnav">
          <div class="topnav-right">
-            <a href="pt.p_view.php">[   Minhas perguntas   ]</a>
-            <a href="pt.edit.php?id=<?php echo $row["id"]; ?>">[   Editar   ]</a>
-            <a href="pt.start.php">[   Me pergunte...   ]</a>
+            <a href="pt.edit.php?id=<?php echo $row["id"]; ?>">[   Editar   ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="pt.start.php">[   Home   ]</a>
          </div>
       </div>
       </nav>
@@ -68,8 +67,8 @@ if ($result->num_rows == 1) {
       <div class="topnav">
          <div class="topnav-right">
            
-            <a href="pt.p_view.php">[   Minhas perguntas   ]</a>
-            <a href="pt.start.php">[   Me pergunte...   ]</a>
+            <a href="pt.p_view.php">[   Lista   ]&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="pt.start.php">[   Home   ]</a>
 
          </div>
       </div>

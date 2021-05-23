@@ -21,7 +21,7 @@
             </tr>
             <tr style="vertical-align: top; align: center;">
                <td style="text-align: center;">
-                  <h1>QAQuestio</h1>
+                  <h1>QAQ</h1>
                   </br></br></br>
                   
                </td>
@@ -34,20 +34,20 @@
             </tr>
          </table>
       </li>
-       <li>
+      <!--  <li>
             <p>
                </br></br>
                <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Bei mir selbst will ich lernen, will ich Schüler sein,</br>  
                will ich mich kennenlernen, das Geheimnis Siddhartha."</span><br>
                <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">Hermann Hesse, Siddhartha</span>
                </br></br> 
-              <!-- <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Setzt euch für n Augnblick oder zwei. Haltet eure Hände auf. Da."</br></span>
-               <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Der Wolkenatlas</span> -->
+              <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;">"Setzt euch für n Augnblick oder zwei. Haltet eure Hände auf. Da."</br></span>
+               <span style="font-family: 'TimesSemiLight', Times, serif; font-size: 1.5rem;font-style: italic; text-align: center;">David Mitchell, Der Wolkenatlas</span>
             </p>
-         </li>
+         </li> -->
          <li>
          <p></br></br>
-         Sei aufmerksam.</br>
+         Halte kurz inne.</br>
          </br>
          *</p>
       </li>
@@ -57,21 +57,15 @@
          </br>
          *</p>
       </li>
-<!-- 
-      <li>
+      <li id="section02">
          <p></br></br>
-         *</p>
-      </li> -->
-
-      <?php include 'de.footer.php';?>
-      
-      <li>
-         <p></br></br>
-         <a href="register.php" target="_blank" title="Register" id="nodecoration_black">Möchtest Du mehr erfahren?</a></br>
+         Was würdest Du gerne gefragt werden?</br> 
          </br>
          *</p>
       </li>
 
+      <?php include 'de.footer.php';?>
+      
       <li>
 
       </li>
