@@ -159,14 +159,14 @@ td.echo {
 	font-family: 'TimesSemiLight', Times, serif;
 	text-align: left;
 	font-weight: 100;
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 }
 
 td.echo_qu {
 	font-family: 'TimesSemiLight', Times, serif;
 	text-align: left;
 	font-weight: bold;
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 }
 
 td.echo_bold {
@@ -214,8 +214,8 @@ li h3.h3_footer {
 
 	h1 {
 		font-size: 5vw;
-		/* font-family: BlackMagic; */
-		font-family: TimesSemiLight;
+		font-family: BlackMagic; 
+		/* font-family: TimesSemiLight; */
 		color: #313131;
 		text-shadow: 2px 2px 5px #000000;
 		font-weight: normal;
@@ -260,8 +260,8 @@ li h3.h3_footer {
 
 	.menu_logo {
 		font-size: 70px;
-		/* font-family: BlackMagic; */
-		font-family: TimesSemiLight;
+		font-family: BlackMagic; 
+		/* font-family: TimesSemiLight; */
 		color: #313131;
 		text-shadow: 2px 2px 5px #000000;
 		font-weight: normal;
@@ -392,8 +392,8 @@ li h3.h3_footer {
 
   h1 {
 	font-size: 14vw;
-	/* font-family: BlackMagic; */
-	font-family: TimesSemiLight;
+	font-family: BlackMagic; 
+	/* font-family: TimesSemiLight; */
 	color: #313131;
 	text-shadow: 2px 2px 5px #000000;
 	font-weight: normal;
@@ -439,8 +439,8 @@ li h3.h3_footer {
 
 	.menu_logo {
 		font-size: 70px;
-		/* font-family: BlackMagic; */
-		font-family: TimesSemiLight;
+		font-family: BlackMagic; 
+		/* font-family: TimesSemiLight; */
 		color: #313131;
 		text-shadow: 2px 2px 5px #000000;
 		font-weight: normal;
